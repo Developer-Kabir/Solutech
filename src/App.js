@@ -10,6 +10,11 @@ import Pricing from './Components/Pages/Pricing/Pricing';
 import Portfolio from './Components/Pages/Portfolio/Portfolio';
 import Blog from './Components/Pages/Blog/Blog';
 
+import FAQ from './Components/Pages/About/FAQ';
+import Terms from './Components/Pages/About/Terms';
+import History from './Components/Pages/About/History';
+
+
 
 function App() {
   return (
@@ -23,6 +28,10 @@ function App() {
         <Route path='/pricing' element={<Pricing></Pricing>}></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+       
+        <Route path='/faq' element={<FAQ></FAQ>}></Route>
+        <Route path='/terms' element={<Terms></Terms>}></Route>
+        <Route path='/history' element={<History></History>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

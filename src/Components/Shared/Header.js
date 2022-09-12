@@ -72,32 +72,6 @@ const Header = () => {
 													<li>
 														<a href="/blog">Blog</a>
 													</li>
-													<li class="menu-item-has-children">
-														<a href="#">Pages</a>
-														<ul class="sub-menu">
-															<li><a href="pricing-plan.html">Pricing Plan</a></li>
-															<li><a href="why-choose-us.html">Why Choose Us</a></li>	
-															<li><a href="faq.html">FAQ’S</a></li>
-															<li class="menu-item-has-children">
-																<a href="#">Portfolio</a>
-																<ul class="sub-menu">
-																	<li><a href="portfolio-2column.html">Portfolio 2Column</a></li>
-																	<li><a href="portfolio-3column.html">Portfolio 3Column</a></li>
-																	<li><a href="portfolio-4column.html">Portfolio 4Column</a></li>
-																</ul>
-															</li>
-															<li><a href="team.html">Team</a></li>
-															<li><a href="testimonial.html">Testimonial</a></li>
-														</ul>
-													</li>
-													<li class="menu-item-has-children">
-														<a href="#">News</a>
-														<ul class="sub-menu">
-															<li><a href="blog.html">Blog Grid</a></li>
-															<li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-															<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-														</ul>
-													</li>
 													<li><a href="/contact">Contact Us</a></li>
 												</ul>
 												<div class="donate-btn-header">

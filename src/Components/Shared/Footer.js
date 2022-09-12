@@ -25,11 +25,10 @@ const Footer = () => {
 					<div class="widget widget_nav_menu">
 						<h2 class="widget-title">Support 24/7</h2>
 						<ul class="menu">
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">FAQ’s</a></li>
-							<li><a href="#">Term & Conditions</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">History & Experience</a></li>
+							<li><a href="/terms">Term & Conditions</a></li>
+							<li><a href="/contact">Contact</a></li>
+							<li><a href="/faq">FAQ’s</a></li>
+							<li><a href="/history">History & Experience</a></li>
 						</ul>
 					</div>
 				</div>
@@ -114,9 +113,9 @@ const Footer = () => {
 				<div class="col-lg-6 col-md-6  col-sm-12">				
 					<div class="footer-menu">
 						<ul class="text-right">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Team</a></li>
+							<li><a href="/">Home</a></li>
+							<li><a href="/about">About</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul> 				
 					</div>
 				</div>
