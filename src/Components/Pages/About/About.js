@@ -5,6 +5,8 @@ import Counter from './Counter';
 import DiscoverWorld from './DiscoverWorld';
 import FAQ from './FAQ';
 import Ourmember from './Ourmember';
+import PartnerBrand from './PartnerBrand';
+import Testiomonal from './Testiomonal';
 
 const About = () => {
     return (
@@ -12,9 +14,11 @@ const About = () => {
             <AboutBanner></AboutBanner>
             <DiscoverWorld></DiscoverWorld>
             <AboutService></AboutService>
-            <Ourmember></Ourmember>
             <Counter></Counter>
             <FAQ></FAQ>
+            <Testiomonal></Testiomonal>
+            <PartnerBrand></PartnerBrand>
+            <Ourmember></Ourmember>
         </div>
     );
 };

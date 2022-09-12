@@ -9,9 +9,7 @@ const Ourmember = () => {
 			<div class="col-lg-12">
 				<div class="witr_section_title">
 					<div class="witr_section_title_inner text-center">
-						<h2>OUR MEMBER</h2>		
-						<h3>WHAT DO YOU WANT TO</h3>		
-						<h1>LEARN TODAY ?</h1>		
+						<h2>OUR MANAGEMENT TEAM</h2>			
 					</div>
 				</div>
 			</div>
