@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServiceDetail = () => {
     return (
@@ -12,7 +13,7 @@ const ServiceDetail = () => {
 				</div>
 				<div class="breadcumb-inner">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><Link to="index.html">Home</Link></li>
 						<li><i class="fas fa-angle-right"></i></li>
 						<li>Service Details</li>
 					</ul>						
@@ -59,11 +60,11 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-ui-home"></i>
 									</div>
-									<h3><a href="#">Home Servicing</a></h3>
+									<h3><Link to="#">Home Servicing</Link></h3>
 									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
 								</div>
 								<div class="witr_service_btn_3d">
-									<a href="#">See More</a>
+									<Link to="#">See More</Link>
 								</div>
 							</div>
 						</div>
@@ -93,11 +94,11 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-ui-settings"></i>
 									</div>
-									<h3><a href="#">PRODUCT SERVICING</a></h3>
+									<h3><Link to="#">PRODUCT SERVICING</Link></h3>
 									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
 								</div>
 								<div class="witr_service_btn_3d">
-									<a href="#">See More</a>
+									<Link to="#">See More</Link>
 								</div>
 							</div>
 						</div>
@@ -127,11 +128,11 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-search-property"></i>
 									</div>
-									<h3><a href="#">COULD &amp; SEARCH</a></h3>
+									<h3><Link to="#">COULD &amp; SEARCH</Link></h3>
 									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
 								</div>
 								<div class="witr_service_btn_3d">
-									<a href="#">See More</a>
+									<Link to="#">See More</Link>
 								</div>
 							</div>
 						</div>

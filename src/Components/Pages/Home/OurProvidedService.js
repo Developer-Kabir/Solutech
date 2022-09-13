@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const OurProvidedService = () => {
     return (
@@ -17,23 +18,23 @@ const OurProvidedService = () => {
 				
 					<div class="witr_btn_style mr tx_op">
 						<div class="witr_btn_sinner">	
-							<a href="#" class="witr_bbtn bbtn1">Try Free Service			
+							<Link to="#" class="witr_bbtn bbtn1">Try Free Service			
 								<span class="btn_w a_active">
 									<i class="icofont-refrigerator"></i>
 								</span>
-							</a>
-							<a href="#" class="witr_btn">Refrigerator Premium</a>
+							</Link>
+							<Link to="#" class="witr_btn">Refrigerator Premium</Link>
 						</div>						
 					</div>
 				
 					<div class="witr_btn_style mr  btn_none tx_cl">
 						<div class="witr_btn_sinner">	
-							<a href="#" class="witr_bbtn bbtn1">Phone Premium	
+							<Link to="#" class="witr_bbtn bbtn1">Phone Premium	
 								<span class="btn_c">
 									<i class="icofont-ui-touch-phone"></i>
 								</span>									
-							</a>
-							<a href="#" class="witr_btn">Metal Premium</a>
+							</Link>
+							<Link to="#" class="witr_btn">Metal Premium</Link>
 						</div>						
 					</div>
 				

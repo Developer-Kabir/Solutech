@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Protection = () => {
     return (
@@ -19,7 +20,7 @@ const Protection = () => {
 								</div>
 								<div class="em-service-inner">
 									<div class="em-service-title">
-										<h3><a href="#">PROTECTION</a></h3>
+										<h3><Link to="#">PROTECTION</Link></h3>
 									</div>						
 									<div class="em-service-desc">
 										<p>Private Security </p>		
@@ -44,7 +45,7 @@ const Protection = () => {
 								</div>
 								<div class="em-service-inner">
 									<div class="em-service-title">
-										<h3><a href="#">MONITORING</a></h3>
+										<h3><Link to="#">MONITORING</Link></h3>
 									</div>						
 									<div class="em-service-desc">
 										<p>Banking Sector </p>		
@@ -69,7 +70,7 @@ const Protection = () => {
 								</div>
 								<div class="em-service-inner">
 									<div class="em-service-title">
-										<h3><a href="#">Fingerprint</a></h3>
+										<h3><Link to="#">Fingerprint</Link></h3>
 									</div>						
 									<div class="em-service-desc">
 										<p>Education Institute </p>		

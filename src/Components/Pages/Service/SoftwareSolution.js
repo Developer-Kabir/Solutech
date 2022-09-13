@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SoftwareSolution = () => {
     return (
@@ -66,7 +67,7 @@ const SoftwareSolution = () => {
                             <div class="witr_button_area button2">
                                 <div class="witr_btn_style mr">
                                     <div class="witr_btn_sinner">
-                                        <a href="#" class="witr_btn">Discover More</a>
+                                        <Link to="#" class="witr_btn">Discover More</Link>
                                     </div>
                                 </div>
                             </div>

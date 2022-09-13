@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Terms = () => {
     return (
@@ -12,7 +13,7 @@ const Terms = () => {
 				</div>
 				<div class="breadcumb-inner">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><Link to="index.html">Home</Link></li>
 						<li><i class="fas fa-angle-right"></i></li>
 						<li>terms and Condition</li>
 					</ul>						

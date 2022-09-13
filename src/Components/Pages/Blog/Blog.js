@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
     return (
@@ -12,7 +13,7 @@ const Blog = () => {
 				</div>
 				<div class="breadcumb-inner">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><Link to="index.html">Home</Link></li>
 						<li><i class="fas fa-angle-right"></i></li>
 						<li>Blog</li>
 					</ul>						
@@ -45,15 +46,15 @@ const Blog = () => {
 						<div class="blog_part_inner">
 							<div class="witr_blog_imags">
 								<div class="blog-img">
-									<a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""/> </a>
+									<Link to="#"><img src="assets/images/blog-thumb-01.jpg" alt=""/> </Link>
 								</div>
 							</div>
 							<div class="wblog-content blog-content-2 all_blog_color">
-								<span><a href="#"><i class="fas fa-user"></i> Solutech </a></span>
-								<span><i class="icofont-tags"></i><a href="#">Antivirus app</a></span>
-								<h5><a href="single-blog.html">Questions every business owner able to answer</a></h5>
+								<span><Link to="#"><i class="fas fa-user"></i> Solutech </Link></span>
+								<span><i class="icofont-tags"></i><Link to="#">Antivirus app</Link></span>
+								<h5><Link to="single-blog.html">Questions every business owner able to answer</Link></h5>
 								<p>Lorem Ipsum has been the industry's standarddummy text ever since this 2021</p>
-								<a class="btn2" href="#">Read More</a>
+								<Link class="btn2" to="#">Read More</Link>
 							</div>
 						</div>
 					</div>
@@ -64,15 +65,15 @@ const Blog = () => {
 						<div class="blog_part_inner">
 							<div class="witr_blog_imags">
 								<div class="blog-img">
-									<a href="#"><img src="assets/images/blog-thumb-02.jpg" alt=""/> </a>
+									<Link to="#"><img src="assets/images/blog-thumb-02.jpg" alt=""/> </Link>
 								</div>
 							</div>
 							<div class="wblog-content blog-content-2 all_blog_color">
-								<span><a href="#"><i class="fas fa-user"></i> Solutech </a></span>
-								<span><i class="icofont-tags"></i><a href="#">Business</a></span>
-								<h5><a href="single-blog.html">Boost Leads Optimize Market of New Year</a></h5>
+								<span><Link to="#"><i class="fas fa-user"></i> Solutech </Link></span>
+								<span><i class="icofont-tags"></i><Link to="#">Business</Link></span>
+								<h5><Link to="single-blog.html">Boost Leads Optimize Market of New Year</Link></h5>
 								<p>Lorem Ipsum has been the industry's standarddummy text ever since this 2021</p>
-								<a class="btn2" href="#">Read More</a>
+								<Link class="btn2" to="#">Read More</Link>
 							</div>
 						</div>
 					</div>
@@ -83,15 +84,15 @@ const Blog = () => {
 						<div class="blog_part_inner">
 							<div class="witr_blog_imags">
 								<div class="blog-img">
-									<a href="#"><img src="assets/images/blog-thumb-03.jpg" alt=""/> </a>
+									<Link to="#"><img src="assets/images/blog-thumb-03.jpg" alt=""/> </Link>
 								</div>
 							</div>
 							<div class="wblog-content blog-content-2 all_blog_color">
-								<span><a href="#"><i class="fas fa-user"></i> Solutech </a></span>
-								<span><i class="icofont-tags"></i><a href="#">Antivirus app</a></span>
-								<h5><a href="single-blog.html">We make a Revolution in Word Class Building.</a></h5>
+								<span><Link to="#"><i class="fas fa-user"></i> Solutech </Link></span>
+								<span><i class="icofont-tags"></i><Link to="#">Antivirus app</Link></span>
+								<h5><Link to="single-blog.html">We make a Revolution in Word Class Building.</Link></h5>
 								<p>Lorem Ipsum has been the industry's standarddummy text ever since this 2021</p>
-								<a class="btn2" href="#">Read More</a>
+								<Link class="btn2" to="#">Read More</Link>
 							</div>
 						</div>
 					</div>

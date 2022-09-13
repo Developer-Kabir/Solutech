@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PartnerBrand = () => {
     return (
@@ -35,7 +36,7 @@ const PartnerBrand = () => {
 					<div class="witr_button_area">
 						<div class="witr_btn_style mr">
 							<div class="witr_btn_sinner">	
-								<a href="#" class="witr_bbtn">More Portfolio</a>
+								<Link to="#" class="witr_bbtn">More Portfolio</Link>
 							</div>						
 						</div>
 					</div>

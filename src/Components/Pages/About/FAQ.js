@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FAQ = () => {
     return (
@@ -56,7 +57,7 @@ const FAQ = () => {
 				<div class="witr_button_area button2">
 					<div class="witr_btn_style mr">
 						<div class="witr_btn_sinner">	
-							<a href="#" class="witr_btn">DISCOVER MORE</a>
+							<Link to="#" class="witr_btn">DISCOVER MORE</Link>
 						</div>						
 					</div>
 				</div>
@@ -67,8 +68,8 @@ const FAQ = () => {
                         <div id="accordion">
 							<div class="card card-2">
 								<div class="card-header witr_ac_card">
-									<a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_242536c" aria-expanded="true">
-									 01. Do You Need A Business Service?</a>
+									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_242536c" aria-expanded="true">
+									 01. Do You Need A Business Service?</Link>
 								</div>
 								<div id="collapse_242536c" class="collapse" data-parent="#accordion">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
@@ -76,8 +77,8 @@ const FAQ = () => {
 							</div>
 							<div class="card card-2">
 								<div class="card-header witr_ac_card">
-									<a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_9315e3d1" aria-expanded="true">
-									02. Business Service A Scam?</a>
+									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_9315e3d1" aria-expanded="true">
+									02. Business Service A Scam?</Link>
 								</div>
 								<div id="collapse_9315e3d1" class="collapse   " data-parent="#accordion">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
@@ -86,8 +87,8 @@ const FAQ = () => {
 						
 							<div class="card card-2  ">
 								<div class="card-header witr_ac_card">
-									<a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_9965145" aria-expanded="true">
-									03. Most Out Of Your Business Service?</a>
+									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_9965145" aria-expanded="true">
+									03. Most Out Of Your Business Service?</Link>
 								</div>
 								<div id="collapse_9965145" class="collapse   " data-parent="#accordion">
                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
@@ -96,8 +97,8 @@ const FAQ = () => {
 					
 							<div class="card card-2  ">
 								<div class="card-header witr_ac_card">
-									<a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_4b685b3" aria-expanded="true">
-									 04. The Sound Of Business Service?</a>
+									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_4b685b3" aria-expanded="true">
+									 04. The Sound Of Business Service?</Link>
 								</div>
 								<div id="collapse_4b685b3" class="collapse   " data-parent="#accordion">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
@@ -106,8 +107,8 @@ const FAQ = () => {
 					
 							<div class="card card-2  ">
 								<div class="card-header witr_ac_card">
-									<a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_4b685b4" aria-expanded="true">
-									05. The Sound Of Business Service?</a>
+									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_4b685b4" aria-expanded="true">
+									05. The Sound Of Business Service?</Link>
 								</div>
 								<div id="collapse_4b685b4" class="collapse   " data-parent="#accordion">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AboutService = () => {
     return (
@@ -23,10 +24,10 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-website-1"></i>					
 						</div>
-						<h3><a href="#">Concierge &amp; Reception </a></h3>
+						<h3><Link to="#">Concierge &amp; Reception </Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="#">Read More</a>
+							<Link class="witr_btn_all_color" to="#">Read More</Link>
 						</div>
 						<div class="witr_feature2_icon">						
 							<i class="aprova aprova-website-1"></i>	
@@ -41,10 +42,10 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-landing"></i>				
 						</div>
-						<h3><a href="#">Mobile Patrol And  Security</a></h3>
+						<h3><Link to="#">Mobile Patrol And  Security</Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="#">Read More</a>
+							<Link class="witr_btn_all_color" to="#">Read More</Link>
 						</div>
 						<div class="witr_feature2_icon">						
 							<i class="aprova aprova-landing"></i>
@@ -59,10 +60,10 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-analysis"></i>			
 						</div>
-						<h3><a href="#">Offshore Software Develop </a></h3>
+						<h3><Link to="#">Offshore Software Develop </Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="#">Read More</a>
+							<Link class="witr_btn_all_color" to="#">Read More</Link>
 						</div>
 						<div class="witr_feature2_icon">						
 							<i class="aprova aprova-analysis"></i>
@@ -77,10 +78,10 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-bitcoin-1"></i>			
 						</div>
-						<h3><a href="#">Security Management Service</a></h3>
+						<h3><Link to="#">Security Management Service</Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="#">Read More</a>
+							<Link class="witr_btn_all_color" to="#">Read More</Link>
 						</div>
 						<div class="witr_feature2_icon">						
 							<i class="aprova aprova-bitcoin-1"></i>
@@ -95,10 +96,10 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-startup"></i>				
 						</div>
-						<h3><a href="#">Mobile Patrol And Security</a></h3>
+						<h3><Link to="#">Mobile Patrol And Security</Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="#">Read More</a>
+							<Link class="witr_btn_all_color" to="#">Read More</Link>
 						</div>
 						<div class="witr_feature2_icon">						
 							<i class="aprova aprova-startup"></i>
@@ -113,10 +114,10 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-bitcoin-6"></i>					
 						</div>
-						<h3><a href="#">Offshore Software Develop</a></h3>
+						<h3><Link to="#">Offshore Software Develop</Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
-							<a class="witr_btn_all_color" href="#">Read More</a>
+							<Link class="witr_btn_all_color" to="#">Read More</Link>
 						</div>
 						<div class="witr_feature2_icon">						
 							<i class="aprova aprova-bitcoin-6"></i>

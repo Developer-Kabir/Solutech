@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
@@ -12,7 +13,7 @@ const Portfolio = () => {
 				</div>
 				<div class="breadcumb-inner">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><Link to="index.html">Home</Link></li>
 						<li><i class="fas fa-angle-right"></i></li>
 						<li>Portfolio 4Column</li>
 					</ul>						
@@ -57,9 +58,9 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-01.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-01.jpg"><i class="fas fa-arrows-alt"></i></Link>
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 1</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 1</Link></h3>
 											<p><span class="category-item-p">Home Safe </span></p>
 										</div>
 									</div>
@@ -73,10 +74,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-02.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-02.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 2</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 2</Link></h3>
 											<p><span class="category-item-p">Business </span></p>
 										</div>
 									</div>
@@ -91,10 +92,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-03.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-03.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 3</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 3</Link></h3>
 											<p><span class="category-item-p">Security </span></p>
 										</div>
 									</div>
@@ -109,10 +110,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-04.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-04.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 4</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 4</Link></h3>
 											<p><span class="category-item-p">Night vision </span></p>
 										</div>
 									</div>
@@ -127,10 +128,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-05.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-05.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 5</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 5</Link></h3>
 											<p><span class="category-item-p">Home Safe </span></p>
 										</div>
 									</div>
@@ -145,10 +146,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-06.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-06.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 6</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 6</Link></h3>
 											<p><span class="category-item-p">Business </span></p>
 										</div>
 									</div>
@@ -163,10 +164,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-07.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-07.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 7</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 7</Link></h3>
 											<p><span class="category-item-p">Night vision </span></p>
 										</div>
 									</div>
@@ -181,10 +182,10 @@ const Portfolio = () => {
 									<div class="prot_content">
 										<div class="prot_content_inner">
 											<div class="picon">
-												<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/solutech-port-05.jpg"><i class="fas fa-arrows-alt"></i></a>
+												<Link class="portfolio-icon venobox vbox-item" data-gall="myportfolio" to="assets/images/solutech-port-05.jpg"><i class="fas fa-arrows-alt"></i></Link>
 
 											</div>
-											<h3><a href="single-portfolio.html">Demo Media Title 8</a></h3>
+											<h3><Link to="single-portfolio.html">Demo Media Title 8</Link></h3>
 											<p><span class="category-item-p">Security </span></p>
 										</div>
 									</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Homebanner = () => {
     return (
@@ -12,8 +13,8 @@ const Homebanner = () => {
 						<div class="slider_btn">
 							<div class="witr_btn_style">
 								<div class="witr_btn_sinner">
-									<a class="witr_btn" href="#">DISCOVER MORE</a>
-									<a class="witr_btn active recpwit" href="#">CONTACT MORE</a>
+									<Link class="witr_btn" to="#">DISCOVER MORE</Link>
+									<Link class="witr_btn active recpwit" to="#">CONTACT MORE</Link>
 								</div>
 							</div>
 						</div>

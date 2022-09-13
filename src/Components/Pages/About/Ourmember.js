@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Ourmember = () => {
     return (
@@ -27,7 +28,7 @@ const Ourmember = () => {
 						<div class="em-team-content-waraper all_content_bg_color">
 							<div class="em-team-content-title-inner">
 								<div class="em-content-title">
-									<h5><a href="#">EDWARD SMITH </a></h5>
+									<h5><Link to="#">EDWARD SMITH </Link></h5>
 								</div>
 							</div>
 							<div class="em-team-content-subtitle-inner">
@@ -37,10 +38,10 @@ const Ourmember = () => {
 							</div>
 							<div class="em-team-content-socials-inner">
 								<div class="em-team-content-socials all_team_s_color">			
-									<a href="#"><i class="fa fa-facebook-f"></i></a>		
-									<a href="#"><i class="fab fa-twitter"></i></a>		
-									<a href="#"><i class="fab fa-tumblr"></i></a>		
-									<a href="#"><i class="fab fa-vimeo-v"></i></a>		
+									<Link to="#"><i class="fa fa-facebook-f"></i></Link>		
+									<Link to="#"><i class="fab fa-twitter"></i></Link>		
+									<Link to="#"><i class="fab fa-tumblr"></i></Link>		
+									<Link to="#"><i class="fab fa-vimeo-v"></i></Link>		
 								</div>
 							</div>							
 						</div>
@@ -59,7 +60,7 @@ const Ourmember = () => {
 						<div class="em-team-content-waraper all_content_bg_color">
 							<div class="em-team-content-title-inner">
 								<div class="em-content-title">
-									<h5><a href="#">RUBEL SMITH</a></h5>
+									<h5><Link to="#">RUBEL SMITH</Link></h5>
 								</div>
 							</div>
 							<div class="em-team-content-subtitle-inner">
@@ -69,10 +70,10 @@ const Ourmember = () => {
 							</div>
 							<div class="em-team-content-socials-inner">
 								<div class="em-team-content-socials all_team_s_color">			
-									<a href="#"><i class="fa fa-facebook-f"></i></a>		
-									<a href="#"><i class="fab fa-twitter"></i></a>		
-									<a href="#"><i class="fab fa-tumblr"></i></a>		
-									<a href="#"><i class="fab fa-vimeo-v"></i></a>		
+									<Link to="#"><i class="fa fa-facebook-f"></i></Link>		
+									<Link to="#"><i class="fab fa-twitter"></i></Link>		
+									<Link to="#"><i class="fab fa-tumblr"></i></Link>		
+									<Link to="#"><i class="fab fa-vimeo-v"></i></Link>		
 								</div>
 							</div>							
 						</div>
@@ -91,7 +92,7 @@ const Ourmember = () => {
 						<div class="em-team-content-waraper all_content_bg_color">
 							<div class="em-team-content-title-inner">
 								<div class="em-content-title">
-									<h5><a href="#">ANDORSON</a></h5>
+									<h5><Link to="#">ANDORSON</Link></h5>
 								</div>
 							</div>
 							<div class="em-team-content-subtitle-inner">
@@ -101,10 +102,10 @@ const Ourmember = () => {
 							</div>
 							<div class="em-team-content-socials-inner">
 								<div class="em-team-content-socials all_team_s_color">			
-									<a href="#"><i class="fa fa-facebook-f"></i></a>		
-									<a href="#"><i class="fab fa-twitter"></i></a>		
-									<a href="#"><i class="fab fa-tumblr"></i></a>		
-									<a href="#"><i class="fab fa-vimeo-v"></i></a>		
+									<Link to="#"><i class="fa fa-facebook-f"></i></Link>		
+									<Link to="#"><i class="fab fa-twitter"></i></Link>		
+									<Link to="#"><i class="fab fa-tumblr"></i></Link>		
+									<Link to="#"><i class="fab fa-vimeo-v"></i></Link>		
 								</div>
 							</div>							
 						</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CCTV = () => {
     return (
@@ -24,7 +25,7 @@ const CCTV = () => {
 							<img src="assets/images/work-1.jpg" alt=""/>
 							<div class="witr_back_process">
 								<div class="witr_content_service">
-									<h3><a href="#">Day &amp; night Wireless cams</a></h3>
+									<h3><Link to="#">Day &amp; night Wireless cams</Link></h3>
 									<p>We help businesses elevate their through custom service software development product design. </p>
 								</div>
 							</div>
@@ -48,7 +49,7 @@ const CCTV = () => {
 							<img src="assets/images/work-2.jpg" alt=""/>
 							<div class="witr_back_process">
 								<div class="witr_content_service">
-									<h3><a href="#"> venenatis felis Wireless cams</a></h3>
+									<h3><Link to="#"> venenatis felis Wireless cams</Link></h3>
 									<p>We help businesses elevate their through custom service software development product design. </p>
 								</div>
 							</div>
@@ -72,7 +73,7 @@ const CCTV = () => {
 							<img src="assets/images/work-3.jpg" alt=""/>
 							<div class="witr_back_process">
 								<div class="witr_content_service">
-									<h3><a href="#">Cras tristique purus non lacus</a></h3>
+									<h3><Link to="#">Cras tristique purus non lacus</Link></h3>
 									<p>We help businesses elevate their through custom service software development product design. </p>
 								</div>
 							</div>

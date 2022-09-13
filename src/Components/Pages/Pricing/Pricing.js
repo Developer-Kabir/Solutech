@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Pricing = () => {
     return (
@@ -12,7 +13,7 @@ const Pricing = () => {
 				</div>
 				<div class="breadcumb-inner">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><Link to="index.html">Home</Link></li>
 						<li><i class="fas fa-angle-right"></i></li>
 						<li>Pricing Plan</li>
 					</ul>						
@@ -55,7 +56,7 @@ const Pricing = () => {
 							</ul>		
 						</div>
 						<div class="witr_btnp_color">
-							<a class="btn" href="#">Buy now</a>
+							<Link class="btn" to="#">Buy now</Link>
 						</div>			
                     </div>
                 </div>
@@ -79,7 +80,7 @@ const Pricing = () => {
 							</ul>		
 						</div>
 						<div class="witr_btnp_color">
-							<a class="btn" href="#">Buy now</a>
+							<Link class="btn" to="#">Buy now</Link>
 						</div>			
                     </div>
                 </div>
@@ -102,7 +103,7 @@ const Pricing = () => {
 							</ul>		
 						</div>
 						<div class="witr_btnp_color">
-							<a class="btn" href="#">Buy now</a>
+							<Link class="btn" to="#">Buy now</Link>
 						</div>			
                     </div>
                 </div>
@@ -149,7 +150,7 @@ const Pricing = () => {
 							</ul>					
 						</div>
 						<div class="witr_btnp_color">
-							<a class="btn" href="#">Subscribe Now</a>
+							<Link class="btn" to="#">Subscribe Now</Link>
 						</div>			
                     </div> 
                 </div>
@@ -174,7 +175,7 @@ const Pricing = () => {
 							</ul>					
 						</div>
 						<div class="witr_btnp_color">
-							<a class="btn" href="#">Subscribe Now</a>
+							<Link class="btn" to="#">Subscribe Now</Link>
 						</div>			
                     </div> 
                 </div>
@@ -199,7 +200,7 @@ const Pricing = () => {
 							</ul>					
 						</div>
 						<div class="witr_btnp_color">
-							<a class="btn" href="#">Subscribe Now</a>
+							<Link class="btn" to="#">Subscribe Now</Link>
 						</div>			
                     </div> 
                 </div>

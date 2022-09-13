@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const History = () => {
     return (
@@ -16,15 +17,15 @@ const History = () => {
 						<div class="slider_btn">
 							<div class="witr_btn_style">
 								<div class="witr_btn_sinner">
-									<a class="witr_btn" href="#">MORE SERVICE</a>
-									<a class="witr_btn active recpwit" href="#">CONTACT NOW</a>
+									<Link class="witr_btn" to="#">MORE SERVICE</Link>
+									<Link class="witr_btn active recpwit" to="#">CONTACT NOW</Link>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="slider_vd_icon">
 						<div class="slider_vd_icon_inner">
-							<a class="tx_svd_icon recpwit video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="fas fa-play"></i></a>
+							<Link class="tx_svd_icon recpwit video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" to="https://youtu.be/BS4TUd7FJSg"><i class="fas fa-play"></i></Link>
 						</div>
 					</div>
 				</div>
