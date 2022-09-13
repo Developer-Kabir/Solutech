@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -12,8 +13,8 @@ const Header = () => {
 					<div class="top-address text-left">
 						<p>
 							<span><i class="fas fa-home"></i>Ground Floor New World.</span>
-							<a href="#"><i class="fas fa-phone-alt"></i>+998556778345</a>
-							<a href="#"><i class="fas fa-envelope"></i>demo@example.com</a>
+							<Link to="#"><i class="fas fa-phone-alt"></i>+998556778345</Link>
+							<Link to="#"><i class="fas fa-envelope"></i>demo@example.com</Link>
 						</p>
 					</div>
 				</div>
@@ -21,11 +22,11 @@ const Header = () => {
 				<div class="col-xs-12 col-lg-3 col-xl-3 col-md-3 col-sm-12 ">
 					<div class="top-right-menu">
 						<ul class="social-icons text-right text_m_center">
-							<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
-							<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>								
+							<li><Link to="#"><i class="fa fa-facebook-f"></i></Link></li>
+							<li><Link to="#"><i class="fab fa-twitter"></i></Link></li>
+							<li><Link to="#"><i class="fab fa-instagram"></i></Link></li>
+							<li><Link to="#"><i class="fab fa-tumblr"></i></Link></li>
+							<li><Link to="#"><i class="fab fa-pinterest-p"></i></Link></li>								
 						</ul>
 					</div>
 				</div>	
@@ -45,37 +46,37 @@ const Header = () => {
 									
 										<div class="col-md-3 col-sm-3 col-xs-4">
 											<div class="logo">
-												<a class="main_sticky_main_l" href="index.html" title="solutech">
+												<Link class="main_sticky_main_l" to="index.html" title="solutech">
 													<img src="assets/images/logo.png" alt="solutech"/>
-												</a>
-												<a class="main_sticky_l" href="index.html" title="solutech">
+												</Link>
+												<Link class="main_sticky_l" to="index.html" title="solutech">
 													<img src="assets/images/logo2.png" alt="solutech"/>
-												</a>
+												</Link>
 											</div>	  
 										</div>
 										<div class="col-md-9 col-sm-9 col-xs-8">
 											<nav class="solutech_menu main-search-menu">					
 												<ul class="sub-menu">
 													<li>
-														<a href="/">Home</a>
+														<Link to="/">Home</Link>
 													</li>
-													<li><a href="/about">About</a></li>
+													<li><Link to="/about">About</Link></li>
 													<li>
-														<a href="/service">Service</a>
-													</li>
-													<li>
-														<a href="/pricing">Pricing</a>
+														<Link to="/service">Service</Link>
 													</li>
 													<li>
-														<a href="/portfolio">Portfolio</a>
+														<Link to="/pricing">Pricing</Link>
 													</li>
 													<li>
-														<a href="/blog">Blog</a>
+														<Link to="/portfolio">Portfolio</Link>
 													</li>
-													<li><a href="/contact">Contact Us</a></li>
+													<li>
+														<Link to="/blog">Blog</Link>
+													</li>
+													<li><Link to="/contact">Contact Us</Link></li>
 												</ul>
 												<div class="donate-btn-header">
-													<a class="dtbtn" href="/contact">Contact Now</a>	
+													<Link class="dtbtn" to="/contact">Contact Now</Link>	
 												</div>
 											</nav>
 										</div>	
@@ -100,9 +101,9 @@ const Header = () => {
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="mobile_menu_logo text-center">
-					<a href="index.html" title="solutech">
+					<Link to="index.html" title="solutech">
 						<img src="assets/images/logo.png" alt="solutech"/>
-					</a>		
+					</Link>		
 				</div>
 			</div>
 		</div>
@@ -115,45 +116,45 @@ const Header = () => {
 		<nav class="solutech_menu">						
 			<ul class="sub-menu">
 				<li>
-					<a href="/">Home</a>
+					<Link to="/">Home</Link>
 				</li>
-				<li><a href="/about">About</a></li>
+				<li><Link to="/about">About</Link></li>
 				<li class="menu-item-has-children">
-					<a href="#">Service</a>
+					<Link to="#">Service</Link>
 					<ul class="sub-menu">
-						<li><a href="home-security.html">Home Security</a></li>
-						<li><a href="software-development.html">Software Development</a></li>
-						<li><a href="installation.html">Installation CCTV</a></li>
-						<li><a href="service-details.html">Service Details</a></li>
+						<li><Link to="home-security.html">Home Security</Link></li>
+						<li><Link to="software-development.html">Software Development</Link></li>
+						<li><Link to="installation.html">Installation CCTV</Link></li>
+						<li><Link to="service-details.html">Service Details</Link></li>
 					</ul>
 				</li>
 				<li class="menu-item-has-children">
-					<a href="#">Pages</a>
+					<Link to="#">Pages</Link>
 					<ul class="sub-menu">
-						<li><a href="pricing-plan.html">Pricing Plan</a></li>
-						<li><a href="why-choose-us.html">Why Choose Us</a></li>	
-						<li><a href="faq.html">FAQ’S</a></li>
+						<li><Link to="pricing-plan.html">Pricing Plan</Link></li>
+						<li><Link to="why-choose-us.html">Why Choose Us</Link></li>	
+						<li><Link to="faq.html">FAQ’S</Link></li>
 						<li class="menu-item-has-children">
-							<a href="#">Portfolio</a>
+							<Link to="#">Portfolio</Link>
 							<ul class="sub-menu">
-								<li><a href="portfolio-2column.html">Portfolio 2Column</a></li>
-								<li><a href="portfolio-3column.html">Portfolio 3Column</a></li>
-								<li><a href="portfolio-4column.html">Portfolio 4Column</a></li>
+								<li><Link to="portfolio-2column.html">Portfolio 2Column</Link></li>
+								<li><Link to="portfolio-3column.html">Portfolio 3Column</Link></li>
+								<li><Link to="portfolio-4column.html">Portfolio 4Column</Link></li>
 							</ul>
 						</li>
-						<li><a href="team.html">Team</a></li>
-						<li><a href="testimonial.html">Testimonial</a></li>
+						<li><Link to="team.html">Team</Link></li>
+						<li><Link to="testimonial.html">Testimonial</Link></li>
 					</ul>
 				</li>
 				<li class="menu-item-has-children">
-					<a href="#">News</a>
+					<Link to="#">News</Link>
 					<ul class="sub-menu">
-						<li><a href="blog.html">Blog Grid</a></li>
-						<li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-						<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+						<li><Link to="blog.html">Blog Grid</Link></li>
+						<li><Link to="blog-left-sidebar.html">Blog Left Sidebar</Link></li>
+						<li><Link to="blog-right-sidebar.html">Blog Right Sidebar</Link></li>
 					</ul>
 				</li>
-				<li><a href="/contact">Contact Us</a></li>
+				<li><Link to="/contact">Contact Us</Link></li>
 			</ul>
 		</nav>	
 	</div>					

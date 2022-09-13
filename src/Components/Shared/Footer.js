@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -10,13 +11,13 @@ const Footer = () => {
 				<div class=" col-lg-3 col-md-6 col-sm-12">
 					<div class="widget widget_solutech_description_widget">				
 						<div class="solutech-description-area">
-							<a href="#"><img src="assets/images/logo2.png" alt=""/></a>
+							<Link to="#"><img src="assets/images/logo2.png" alt=""/></Link>
 							<p>We help businesses elevate the alue ere custom softwa topmet, product fr design lored many of the easier. technicians lif making people.</p>
 							<div class="social-icons">
-								<a href="#"><i class="fa fa-facebook-f"></i></a>
-								<a href="#"><i class="fab fa-google-plus-g"></i></a>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-								<a href="#"><i class="fas fa-rss"></i></a>
+								<Link to="#"><i class="fa fa-facebook-f"></i></Link>
+								<Link to="#"><i class="fab fa-google-plus-g"></i></Link>
+								<Link to="#"><i class="fab fa-twitter"></i></Link>
+								<Link to="#"><i class="fas fa-rss"></i></Link>
 							</div>
 						</div>
 					</div>
@@ -25,10 +26,10 @@ const Footer = () => {
 					<div class="widget widget_nav_menu">
 						<h2 class="widget-title">Support 24/7</h2>
 						<ul class="menu">
-							<li><a href="/terms">Term & Conditions</a></li>
-							<li><a href="/contact">Contact</a></li>
-							<li><a href="/faq">FAQ’s</a></li>
-							<li><a href="/history">History & Experience</a></li>
+							<li><Link to="/terms">Term & Conditions</Link></li>
+							<li><Link to="/contact">Contact</Link></li>
+							<li><Link to="/faq">FAQ’s</Link></li>
+							<li><Link to="/history">History & Experience</Link></li>
 						</ul>
 					</div>
 				</div>
@@ -113,9 +114,9 @@ const Footer = () => {
 				<div class="col-lg-6 col-md-6  col-sm-12">				
 					<div class="footer-menu">
 						<ul class="text-right">
-							<li><a href="/">Home</a></li>
-							<li><a href="/about">About</a></li>
-							<li><a href="/contact">Contact</a></li>
+							<li><Link to="/">Home</Link></li>
+							<li><Link to="/about">About</Link></li>
+							<li><Link to="/contact">Contact</Link></li>
 						</ul> 				
 					</div>
 				</div>
