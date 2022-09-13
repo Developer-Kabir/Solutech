@@ -42,7 +42,7 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-landing"></i>				
 						</div>
-						<h3><Link to="#">Mobile Patrol And  Security</Link></h3>
+						<h3><Link to="#">Mobile Security</Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
 							<Link class="witr_btn_all_color" to="#">Read More</Link>
@@ -60,7 +60,7 @@ const AboutService = () => {
 						<div class="witr_fea2_icon_top">
 							<i class="aprova aprova-analysis"></i>			
 						</div>
-						<h3><Link to="#">Offshore Software Develop </Link></h3>
+						<h3><Link to="#">Software Develop </Link></h3>
 						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
 						<div class="witr_feature_btn2">
 							<Link class="witr_btn_all_color" to="#">Read More</Link>

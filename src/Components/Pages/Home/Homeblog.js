@@ -46,7 +46,7 @@ const Homeblog = () => {
 
 			<div class="col-lg-12">
 				<div class="witr_section_title">
-					<div class="witr_section_title_inner text-center">
+					<div class="witr_section_title_inner text-center mb-5">
 						<h2>Our News & Media</h2>		
 						<h3>Latest news are on top</h3>		
 					</div>
