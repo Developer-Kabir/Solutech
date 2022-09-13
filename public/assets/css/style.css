@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* === theme style   ==== */
 
-.link-style{
+.a{
      color: #17161a;
      transition: .5s;
 }
-.link-style:hover {
+.a:hover {
      text-decoration: none;
      color:#0c5adb;
 }
@@ -20,7 +20,7 @@
  p {
      font-style: normal;
 }
- h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+ h1, h2, h3, h4, h5, h6, h1 , h2 , h3 a, h4 , h5 , h6 {
      font-family: 'Barlow Condensed', sans-serif;
      font-style: normal;
      margin-bottom: 0;
@@ -7680,7 +7680,7 @@
      color: #222222;
      font-weight: 500;
      transition: .5s;
-     visibility: inherit !important;
+   
      font-family: 'Barlow Condensed', sans-serif;
 }
  .solutech_menu ul .sub-menu li:hover > a, .solutech_menu ul .sub-menu .sub-menu li:hover > a, .solutech_menu ul .sub-menu .sub-menu .sub-menu li:hover > a, .solutech_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {

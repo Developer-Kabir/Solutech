@@ -6,3 +6,14 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.solutech_menu > ul > li > a{
+  color: black !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a:not([to]):not([tabindex]){
+  color: ;
+}
+

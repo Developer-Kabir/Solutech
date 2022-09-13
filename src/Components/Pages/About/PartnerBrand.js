@@ -1,7 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Slider from "react-slick";
 
 const PartnerBrand = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 800,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 1007,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
     return (
         <div>
             <div class="witr_brand_area brand2">
@@ -10,7 +38,9 @@ const PartnerBrand = () => {
 			<div class="col-lg-9 col-md-8 col-sm-12 pdlf">	
 				<div class="imagess_area wittr_car_top_left brand_bg">
 					<div class="witr_car_overlay brand_imagess_active">
-						<div class="slide_items">
+                    <Slider {...settings}>
+
+                    <div class="slide_items">
 							<img src="assets/images/brand1.png" alt=""/>
 						</div>
 						<div class="slide_items">
@@ -28,6 +58,7 @@ const PartnerBrand = () => {
 						<div class="slide_items">
 							<img src="assets/images/brand3.png" alt=""/>
 						</div>
+                        </Slider>
 					</div>
 				</div> 
 			</div>

@@ -1,13 +1,41 @@
 import React from 'react';
+import Slider from "react-slick";
 
 const OurHappyCustomer = () => {
+
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 1007,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
+
+
     return (
         <div>
             
-
-
-
-
 
 <div class="solutech_testimonial2_area testi_bg">			
 	<div class="container">
@@ -23,7 +51,11 @@ const OurHappyCustomer = () => {
 		</div>	
 		<div class="carso_id1 tshover testi2_top">
 
-			<div class="witr_testi_itemt testi-width all_color_testimonial">	
+
+        <Slider {...settings}>
+
+
+        <div class="witr_testi_itemt testi-width all_color_testimonial">	
 				<div class="em_single_testimonial witr_testi_s_9">
 					<div class="test-part mt-50 ">
 						<ul>
@@ -124,6 +156,11 @@ const OurHappyCustomer = () => {
 					</div>
 				</div>										
 			</div>
+
+
+            </Slider>
+
+
 		</div>
 	</div>
 </div>

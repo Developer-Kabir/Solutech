@@ -12,8 +12,8 @@ const Header = () => {
 				<div class="col-xs-12 col-lg-9 col-xl-9 col-md-9 col-sm-12">
 					<div class="top-address text-left">
 						<p>
-							<span><i class="fas fa-home"></i>Ground Floor New World.</span>
-							<Link to="#"><i class="fas fa-phone-alt"></i>+998556778345</Link>
+							<span><i class="fas fa-home "></i>Ground Floor New World.</span>
+							<Link className='link-style' to="#"><i class="fas fa-phone-alt"></i>+998556778345</Link>
 							<Link to="#"><i class="fas fa-envelope"></i>demo@example.com</Link>
 						</p>
 					</div>
@@ -46,7 +46,7 @@ const Header = () => {
 									
 										<div class="col-md-3 col-sm-3 col-xs-4">
 											<div class="logo">
-												<Link class="main_sticky_main_l" to="index.html" title="solutech">
+												<Link class="main_sticky_main_l" to="/" title="solutech">
 													<img src="assets/images/logo.png" alt="solutech"/>
 												</Link>
 												<Link class="main_sticky_l" to="index.html" title="solutech">
