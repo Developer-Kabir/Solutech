@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Line } from 'rc-progress';
 
 const FAQ = () => {
     return (
@@ -19,9 +20,11 @@ const FAQ = () => {
 						<span class="witr_label">SKILLED EMPLOYEE </span>	
 					</div>		
 					<div class="progress witr_progress-style2">
-						<div class="progress-bar wow fadeInLeft " data-wow-duration="1.5s" data-wow-delay="0.2s" style={{width: "90%"}}>
-							<span class="witr_percent">90%</span>					
-						</div>
+					
+					<Line percent={90} strokeWidth={1} strokeColor="blue"/>
+					
+				
+					
 					</div>				
 				</div>
 				<div class="witr_single_progress">
@@ -29,9 +32,7 @@ const FAQ = () => {
 						<span class="witr_label">QUALITY SERVICES </span>	
 					</div>		
 					<div class="progress witr_progress-style2">
-						<div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s" style={{width: "60%"}}>
-							<span class="witr_percent">60%</span>					
-						</div>
+					<Line percent={95} strokeWidth={1} strokeColor="blue"/>
 					</div>				
 				</div>
 				<div class="witr_single_progress">
@@ -39,9 +40,7 @@ const FAQ = () => {
 						<span class="witr_label">SKILLED COMPLATET </span>	
 					</div>		
 					<div class="progress witr_progress-style2">
-						<div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s" style={{width: "85%"}}>
-							<span class="witr_percent">85%</span>					
-						</div>
+					<Line percent={80} strokeWidth={1} strokeColor="blue"/>
 					</div>				
 				</div>
 				<div class="witr_single_progress">
@@ -49,9 +48,7 @@ const FAQ = () => {
 						<span class="witr_label">SUPPORT COMPLATET </span>	
 					</div>		
 					<div class="progress witr_progress-style2">
-						<div class="progress-bar wow fadeInLeft " data-wow-duration="1.5s" data-wow-delay="0.2s" style={{width:"90%"}}>
-							<span class="witr_percent">90%</span>					
-						</div>
+					<Line percent={98} strokeWidth={1} strokeColor="blue"/>
 					</div>				
 				</div>
 				<div class="witr_button_area button2">

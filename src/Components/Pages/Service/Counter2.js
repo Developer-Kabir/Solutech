@@ -1,4 +1,5 @@
 import React from 'react';
+import CountUp from 'react-countup';
 
 const Counter2 = () => {
     return (
@@ -14,7 +15,7 @@ const Counter2 = () => {
 					</div>	
 					<div class="witr_counter_text">
 						<h4>Happy Clients </h4>		
-						<h3 class="counter">700</h3>				
+						<CountUp end={700} />				
 						<span>+</span>
 					</div>					
 				</div>
@@ -27,7 +28,7 @@ const Counter2 = () => {
 					</div>	
 					<div class="witr_counter_text">
 						<h4>Current Service</h4>		
-						<h3 class="counter">960</h3>				
+						<CountUp end={960} />			
 						<span>+</span>
 					</div>					
 				</div>
@@ -40,7 +41,7 @@ const Counter2 = () => {
 					</div>	
 					<div class="witr_counter_text">
 						<h4>Case Studies</h4>		
-						<h3 class="counter">730</h3>				
+						<CountUp end={730} />			
 						<span>+</span>
 					</div>					
 				</div>
@@ -53,7 +54,7 @@ const Counter2 = () => {
 					</div>	
 					<div class="witr_counter_text">
 						<h4>Award</h4>		
-						<h3 class="counter">97</h3>				
+						<CountUp end={97} />			
 						<span>+</span>
 					</div>					
 				</div>
