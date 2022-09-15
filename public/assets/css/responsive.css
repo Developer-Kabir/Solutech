@@ -715,8 +715,7 @@
          right: 43% !important;
          top: -13% !important;
     }
-     .text-right .witr_ds_content_inner h1, .text-right .witr_ds_content_inner h2, .text-right .witr_ds_content_inner h3, .text-left .witr_ds_content_inner h1, .text-left .witr_ds_content_inner h2, .text-left .witr_ds_content_inner h3, .text-center .witr_ds_content_inner h1, .text-center .witr_ds_content_inner h2, .text-center .witr_ds_content_inner h3{
-    }
+   
      .text-right .slider_vd_icon {
          left: 43% !important;
          top: -13% !important;
@@ -752,10 +751,7 @@
          background: transparent none repeat scroll 0 0;
          z-index: 999;
     }
-     .single_header_address {
-        /* padding: 27px 0 20px;
-         */
-    }
+
      .creative_header_button {
          padding-bottom: 30px;
          text-align: center;
@@ -786,10 +782,7 @@
      .witr_about_content {
          text-align: center;
     }
-     .witr_about_image {
-        /* margin-bottom: 100px;
-         */
-    }
+   
     /* accourdion css */
      .solutech-accourdion-title h2 i {
          display: none;
@@ -1538,8 +1531,7 @@
      .top-address p a, .top-right-menu ul.social-icons li a, .top-address p span {
          font-size: 13px;
     }
-     .top-right-menu ul.social-icons {
-    }
+   
     /* footer bar */
      .footer-top-inner p {
          width: 100%;
@@ -2178,11 +2170,7 @@
          right: 0;
          left: 0;
     }
-    /* service */
-     .singleSS {
-        /* padding: 61px 24px 60px;
-         */
-    }
+   
      .detail_SS h3 {
          font-size: 21px;
     }

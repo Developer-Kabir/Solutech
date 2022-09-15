@@ -6,6 +6,7 @@ import FAQ2 from './FAQ2';
 import ServiceDetail from './ServiceDetail';
 import SoftwareSolution from './SoftwareSolution';
 
+
 const Service = () => {
     return (
         <div>

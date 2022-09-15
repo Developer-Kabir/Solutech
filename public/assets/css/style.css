@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* === theme style   ==== */
 
-.a{
-     color: #17161a;
-     transition: .5s;
-}
-.a:hover {
-     text-decoration: none;
-     color:#0c5adb;
-}
+
  body {
      color: #777777;
      font-family: 'Barlow', sans-serif;
@@ -217,9 +210,7 @@
  .set_class{
      animation: witr_bounce 800ms ease-out infinite;
 }
-/* === style_w8 widget blog left right ==== */
- .blog-left-side {
-}
+
  .blog-left-side > div {
      margin-bottom: 30px;
      padding: 35px 30px 35px;
@@ -234,8 +225,7 @@
      margin-bottom: 10px;
      text-transform: uppercase;
 }
- .blog-left-side {
-}
+
  .blog-left-side .content {
      padding: 0;
 }
@@ -263,10 +253,8 @@
      position: relative;
      width: 100%;
 }
- .defaultsearch input[type="text"] {
-}
- .defaultsearch input::-ms-input-placeholder, .defaultsearch input::-webkit-placeholder, .defaultsearch input::-moz-placeholder {
-}
+
+
  .defaultsearch button {
      background: #0c5adb;
      border: 0 none;
@@ -283,14 +271,11 @@
  .defaultsearch button:hover{
      background: #00247e;
 }
- .defaultsearch button i {
-}
+
  .defaultsearch input[type="text"] {
      padding-left: 15px;
 }
-/* widget list */
- .widget {
-}
+
  .blog-left-side .widget h2 {
      border-bottom: 5px double #0c5adb;
      display: inline-block;
@@ -319,8 +304,7 @@
      right: 0;
      animation-name: move_title_bg2;
 }
- .blog-left-side .widget h2{
-}
+
  .footer-middle .widget h5 {
      text-transform: capitalize;
 }
@@ -348,8 +332,7 @@
  .blog-left-side .widget > ul > li:not(:last-child) {
      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
- .blog-left-side .widget ul li a {
-}
+
  .blog-left-side .widget ul li a:hover, .blog-left-side .widget ul li:hover::before{
      color: #0c5adb;
 }
@@ -360,11 +343,8 @@
      left: 0;
      position: absolute;
 }
- .blog-left-side .widget ul.children li{
-}
-/* widget select */
- .widget {
-}
+
+
  .blog-left-side .widget select {
      width: 100%;
      height: 40px;
@@ -537,9 +517,7 @@
 }
  blockquote em, blockquote i {
      font-style: normal;
-}
- blockquote strong, blockquote b {
-}
+ }
  small {
      font-size: smaller;
 }
@@ -588,10 +566,7 @@
      word-wrap: break-word;
      font-size: 18px;
 }
- tt, code, samp {
-}
- kbd{
-}
+
  .block .wp-block-quote.is-large p, .block .wp-block-quote.is-style-large p {
      font-size: 1.5em;
      font-style: italic;
@@ -682,10 +657,7 @@
      font-size: 15px;
      margin-right: 6px;
 }
- .witr_bbtn i:hover{
-    /* margin-left: 10px;
-    */
-}
+
 /* classic Button */
  .witr_classic_button_area {
      text-align: left;
@@ -754,11 +726,7 @@
      font-size: 16px;
      overflow: hidden;
 }
-/*=========================== 4.feature css ===========================*/
- .sub-border {
-    /* border-bottom: 1px solid #dddddd;
-     */
-}
+
  .sub-item {
      position: relative;
      padding: 20px 0;
@@ -796,8 +764,7 @@
      font-weight: 700;
      line-height: 1;
 }
- .sub-item h3 {
-}
+ 
  .feature_btn a{
      transition:.5s;
      display: inline-block;
@@ -806,8 +773,7 @@
      color:#0c5adb;
 }
 /*====== home page 2 ======*/
- .sub-border-2 {
-}
+
  .sub-border-2 .sub-item span {
      top: 31px;
      left: 45%;
@@ -948,9 +914,7 @@
      height: 398px;
      width:100%;
 }
-/* tittle css */
- .witr_feature_content_3d{
-}
+
  .witr_feature_icon_3d {
      margin-bottom: 14px;
 }
@@ -1032,8 +996,7 @@
 }
 /* Feature Slug */
 /*CREATIVE FEATURE SECTION*/
- .witr_slug_feature{
-}
+
  .witr_feature_bo11_thumb{
      overflow:hidden;
      position: relative;
@@ -1074,8 +1037,7 @@
      text-align: center;
      transition: all 0.3s ease 0s;
 }
- .witr_feature_iconf i{
-}
+
  .witr_back_con_slugf .witr_content_textf h3 {
      font-size: 23px;
      margin-bottom: 11px;
@@ -1449,8 +1411,7 @@
      box-shadow: 0px 0px 5px #ddd;
      padding: 30px;
 }
- .tab_item {
-}
+
  .tab_item ul {
      border-bottom: 1px solid #fff;
 }
@@ -1471,8 +1432,7 @@
  .tab_area .tab_content h3 {
      font-size: 25px;
 }
- .tab_area .tab_content p {
-}
+
  .tab_area .tab_content a {
      padding: 13px 52px;
      margin-top: 15px;
@@ -1488,9 +1448,7 @@
  .digital-img img {
      width: 100%;
 }
-/*=========================== 5.play css ===========================*/
- .witr_play_vi {
-}
+
  .witr_videobg_image{
      position: relative;
 }
@@ -1502,10 +1460,7 @@
     /* background: #0c5adb6b;
      */
 }
- .witr_videobg_image img{
-    /* width:100%;
-     */
-}
+
  .play-overlay{
      position: absolute;
      left: 50%;
@@ -1549,13 +1504,11 @@
      margin: 0;
 }
 /*=========================== 10.video css ===========================*/
- .video-part {
-}
+
  .video-overlay {
      padding: 70px 0 50px;
 }
- .video-item {
-}
+
  .video-item a{
      position: relative;
      display: inline-block;
@@ -1624,8 +1577,7 @@
      width: 153px;
      height: 73px;
 }
- .ab_videoArea a{
-}
+
  .ab_videoArea i{
      position: relative;
      float: right;
@@ -1666,15 +1618,6 @@
          transform: scale(1, 1);
     }
 }
-/*=========================== 6.about area css ===========================*/
- .witr_about_content {
-}
- .witr_about_content h2 {
-}
- .witr_about_content h3 {
-    /* margin-bottom: 40px;
-     */
-}
  .witr_about_content h2 span, .witr_about_content h3 span {
      color:#07D1C1;
 }
@@ -1700,12 +1643,7 @@
      background: #4c0062;
      color: #fff;
 }
- .witr_about_image{
-}
- .witr_about_image img {
-    /* width: 100%;
-     */
-}
+
 /*=========================== 6.service css ===========================*/
  .service {
      background: rgb(1, 219, 176);
@@ -1713,8 +1651,7 @@
  .witr_s_flex{
      display: flex;
 }
- .service .section-title h3, .service .section-title p {
-}
+
  .service-item i {
      font-size: 30px;
      color: #fff;
@@ -1839,9 +1776,7 @@
      height: 398px;
      width:100%;
 }
-/* tittle css */
- .witr_service_content_3d{
-}
+
  .witr_service_icon_3d {
      margin-bottom: 14px;
 }
@@ -1954,8 +1889,7 @@
      transition: all 0.3s ease 0s;
      display: inline-block;
 }
- .witr_titles{
-}
+
  .witr_titles h3, .witr_titles h3 a{
      color: #fff;
 }
@@ -1985,10 +1919,8 @@
  .witr_content_service2 p{
      color:#fff;
 }
- .witr_content_service2 ul{
-}
- .witr_content_service2 ul li{
-}
+
+
  .witr_content_service2 ul li a{
      color:#fff;
      transition:.5s;
@@ -2048,8 +1980,7 @@
  .witr_service3_content h3{
      margin-bottom: 20px;
 }
- .witr_service3_content p{
-}
+
  .witr_btn_inner{
      position: absolute;
      top: 50%;
@@ -2060,16 +1991,13 @@
  .witr_single_service3:hover .witr_btn_inner{
      opacity: 1;
 }
- .witr_service3_btn{
-}
+
  .witr_service3_btn a{
      color:#fff;
      background:#0c5adb;
      padding:15px 25px;
 }
-/* witr_service2_7 Style */
- .witr_service2_7{
-}
+
  .witr_service2_7{
      box-shadow: 0px 5px 20px 0px #00000014;
      padding: 20px;
@@ -2231,10 +2159,8 @@
      overflow: hidden;
      margin-bottom: 30px;
 }
- .witr_front_content {
-}
- .witr_process_image{
-}
+
+
  .witr_process_image img{
      position: relative;
      width: 100%;
@@ -2245,8 +2171,7 @@
      bottom: 20px;
      z-index: 99;
 }
- .witr_process_icon{
-}
+
  .witr_process_icon i{
      color: #fff;
      background:#0c5adb;
@@ -2302,8 +2227,7 @@
  .witr_process_btnb a{
      color:#fff;
 }
- .witr_process_icon2{
-}
+
  .witr_process_icon2 i{
      color: #fff;
      background:#0c5adb;
@@ -2370,8 +2294,7 @@
      opacity: 1;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
- .team_o_icon ul{
-}
+
  .team_o_icon ul li{
      list-style:none;
      display:inline-block;
@@ -2635,8 +2558,7 @@
  .witr_single_team_s a:hover{
      color: #272727;
 }
- .team_single_content{
-}
+
  .team_single_content h3{
      font-size: 40px;
 }
@@ -2747,9 +2669,7 @@
      overflow: hidden;
      padding-bottom: 55px;
 }
-/* team image css */
- .em-team-content-image {
-}
+
  .em-team-content-image img {
      width: 100%;
 }
@@ -2799,8 +2719,7 @@
      background:#0c5adbe6;
      bottom: 0px;
 }
- .em-team:hover .em-team-content-socials {
-}
+
 /* team content */
  .em-content-title h5 {
      font-size: 23px;
@@ -2882,8 +2801,7 @@
      font-size: 18px;
      margin: 0 6px;
 }
- .team-style-2 .em-content-socials a:hover {
-}
+
  .team-style-2 .em-content-socials {
      margin-top: 11px;
 }
@@ -3035,8 +2953,7 @@
      bottom: -15px;
      right: 25px;
 }
- .post_team_icon_8 ul{
-}
+
  .post_team_icon_8 ul li{
      display: inline-block;
 }
@@ -3057,8 +2974,7 @@
      background: #0c5adb;
      color: #fff;
 }
- .post_team_icon_8 ul li a i{
-}
+
  .post_team_content{
      box-shadow: 0px 5px 20px 0px #00000014;
      transition: .5s;
@@ -3071,8 +2987,7 @@
  .team_list_op {
      margin-top: 10px;
 }
- .team_list_op ul{
-}
+
  .team_list_op ul li{
      margin-top: 3px;
 }
@@ -3099,10 +3014,8 @@
      padding: 10px;
      margin-right: 20px;
 }
- .post_team_icon_9 ul{
-}
- .post_team_icon_9 ul li{
-}
+
+
  .post_team_icon_9 ul li a{
      color:#fff;
      transition:.5s;
@@ -3176,9 +3089,7 @@
  .post_team11_area .team_o_icons ul li {
      display: inline-block;
 }
-/* team 8 */
- .witr_team_a3d{
-}
+
  .witr_team_cont_3d {
      -o-perspective: 800px;
      perspective: 800px;
@@ -3326,8 +3237,7 @@
      color:#ffffff;
      border-color:#0c5adb;
 }
- .witr_team_s12:hover img{
-}
+
 /* back_view */
  .back_view{
      position: absolute;
@@ -3381,8 +3291,7 @@
      position:relative;
      padding-bottom: 23px;
 }
- .witr_team_sec_4{
-}
+
  .witr_team_thumb4{
      position:relative;
 }
@@ -3708,8 +3617,7 @@
      font-size: 24px;
      margin-right: 5px;
 }
- .pricing-part ul{
-}
+
  .pricing-part ul li {
      color: #555555;
      line-height: 40px;
@@ -3719,11 +3627,7 @@
      padding: 20px 18px 10px 0px;
      font-size: 20px;
 }
-/* pricing list css */
- .pricing-part ul li:nth-child(odd){
-}
- .pricing-part ul li:nth-child(even){
-}
+
  .witr_btnp_color {
      padding-top: 37px;
      padding-bottom: 40px;
@@ -3796,9 +3700,7 @@
      margin-right:0px;
      margin-left:15px;
 }
-/*=========================== 10.testomonial css ===========================*/
- .testomonial {
-}
+
  .testomonial .test-part {
      box-shadow: 0px 0px 12px 0px #dddddd7a;
      padding: 30px 17px 10px 30px;
@@ -3848,8 +3750,7 @@
      display: inline-block;
      padding-top: 0px 
 }
- .test-part p {
-}
+
  .testomonial .test-part img {
      position: absolute;
      top: -43px;
@@ -3868,10 +3769,7 @@
  .witr_slick_column {
      padding: 0 15px;
 }
- .em_crating {
-    /* margin-top: 5px;
-     */
-}
+
  .em_crating i {
      color:#ddd;
      font-size:18px;
@@ -3883,8 +3781,7 @@
  .single_creativeItem{
      text-align:center;
 }
- .box-size{
-}
+
  .testiCreCon {
      position: relative;
      box-shadow: 0px 2px 29px 0px rgba(0, 0, 0, 0.06);
@@ -3918,8 +3815,7 @@
      margin: 0;
      z-index: 1;
 }
- .testAuthor{
-}
+
  .testAuthor h6{
      margin-bottom: 0px;
 }
@@ -3956,8 +3852,7 @@
      position: relative;
      padding: 0 180px;
 }
- .witr_content_test7 .em_crating {
-}
+
  .witr_content_test7 .em_crating i {
      font-size: 18px;
 }
@@ -3984,8 +3879,7 @@
      z-index: 11;
      position: relative;
 }
- .witr_content_test7 h6{
-}
+
  .witr_content_test7 span{
      font-size: 18px;
 }
@@ -4019,10 +3913,7 @@
      margin-left: 215px;
      margin-right: -165px;
 }
- .witr_test_part img {
-}
- .witr_ns_part{
-}
+
  .witr_ns_part h6 {
      font-size: 22px;
      margin-top: 10px;
@@ -4032,8 +3923,7 @@
      font-size: 17px;
      font-weight: 500;
 }
- .witr_test_content{
-}
+
  .witr_test_content p {
      width: 88%;
      margin: auto;
@@ -10496,14 +10386,7 @@
  .wrapper{
      position:relative;
 }
-/* video icon css */
- .slider_vd_icon {
-    /* position: absolute;
-     right: 15px;
-     top: 50%;
-     transform: translateY(-50%);
-     */
-}
+
  .text-left .slider_vd_icon {
      position: absolute;
      right: 15px;
@@ -10588,19 +10471,14 @@
      margin-left: 5px;
      display: inline-block;
 }
-/* footer text des */
- .solutech-description-area{
-}
- .solutech-description-area a{
-}
+
  .solutech-description-area a img {
      margin: 26px 0;
 }
  .solutech-description-area p {
      color: #fff;
 }
- .footer-middle .solutech-description-area p, .solutech-description-area .phone a{
-}
+
  .social-icons {
      text-align: left;
 }
@@ -10677,8 +10555,7 @@
      display: inline-block;
      margin-bottom: 25px;
 }
- .prots-contentg ul li{
-}
+
 /* portfolio slides*/
  .witr_single_pslide{
      position:relative;
@@ -10743,10 +10620,7 @@
      opacity:1;
      bottom: 30px;
 }
- .ps1 .witr_content_pslide {
-    /* float: left;
-     */
-}
+
  .witr_content_pslide_text h3 {
      margin-bottom: 0;
 }
@@ -10763,8 +10637,7 @@
      margin-bottom: 0px;
      font-weight: 500;
 }
- .witr_content_pslide_text a i{
-}
+
  .witr_content_pslide_text a{
      display:inline-block;
 }
@@ -11073,8 +10946,7 @@
  .witr_case:hover .witr_content_casem{
      bottom: -4px;
 }
- .witr_content_casei {
-}
+
  .witr_content_casei h3{
      font-size: 21px;
 }
@@ -11134,9 +11006,7 @@
  .mean-container .mean-nav ul li li a {
      color: #17161a;
 }
-/* witr_table */
- .witr_table{
-}
+
  .witr_sub_table{
      display: flex;
      justify-content: space-between;
@@ -11277,8 +11147,7 @@
  .witr_swiper_area .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
      background: #0c5adb;
 }
- .witr_swiper_area .swiper-container-horizontal>.swiper-pagination-progressbar{
-}
+
  .witr_swiper_area .swiper-pagination-progressbar .swiper-pagination-progressbar-fill, .witr_swiper_area .swiper-container-horizontal>.swiper-pagination-progressbar{
      height: 10px;
 }
@@ -12419,8 +12288,7 @@
      width: 100%;
      margin: auto;
 }
- .witr_form_controls2 {
-}
+
  .witr_field2 .witr_form_field2 {
      float: left;
      width: 49%;

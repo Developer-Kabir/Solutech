@@ -22,6 +22,7 @@ const About = () => {
             <PartnerBrand></PartnerBrand>
             <Ourmember></Ourmember>
             <History></History>
+            
         </div>
     );
 };

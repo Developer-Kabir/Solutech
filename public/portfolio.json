@@ -1,0 +1,52 @@
+[
+    {
+      "_id": "632253d016c3a6c97dd9ea44",
+      "picture": "assets/images/solutech-port-01.jpg",
+      "projectNo": "Project 1",
+      "Category": "Security"
+    },
+    {
+      "_id": "632253d0fe394690cc5ca93d",
+      "picture": "assets/images/solutech-port-03.jpg",
+      "projectNo": "Project 2",
+      "Category": "Security"
+    },
+    {
+      "_id": "632253d004aa87f5487c3f71",
+      "picture": "assets/images/solutech-port-04.jpg",
+      "projectNo": "Project 3",
+      "Category": "Business"
+    },
+    {
+      "_id": "632253d0192bd7dfe0c947d7",
+      "picture": "assets/images/solutech-port-07.jpg",
+      "projectNo": "Project 4",
+      "Category": "Business"
+    },
+    {
+      "_id": "632253d098fe9899d67686f4",
+      "picture": "https://sandiegocctvpros.com/wp-content/uploads/bb-plugin/cache/security-system-installation-square.jpg",
+      "projectNo": "Project 6",
+      "Category": "Home Safety"
+     
+    },
+    {
+      "_id": "632253d06b4e662bbe27bbd5",
+      "picture": "assets/images/solutech-port-05.jpg",
+      "projectNo": "Project 5",
+      "Category": "Home Safety"
+    },
+    {
+      "_id": "632253d07f948cfd2d25e63a",
+      "picture": "assets/images/solutech-port-06.jpg",
+      "projectNo": "Project 7",
+      "Category": "Night Vision"
+      
+    },
+    {
+      "_id": "632253d0d397b66df50332d5",
+      "picture": "assets/images/solutech-port-02.jpg",
+      "projectNo": "Project 8",
+      "Category": "Night Vision"
+    }
+  ]
