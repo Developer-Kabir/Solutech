@@ -3962,10 +3962,7 @@
      padding: 0;
      margin: auto;
 }
- .item{
-}
- .autho_thumb{
-}
+
  .autho_thumb img{
      margin:auto;
 }
@@ -4043,10 +4040,7 @@
  .all_blog_color {
      text-align: left;
 }
- .blog-part {
-}
- .blog_part_inner {
-}
+
  .witr_blog_imags{
      overflow: hidden;
 }
@@ -4127,8 +4121,7 @@
      background: #0c5adb;
      color: #fff;
 }
- .witr_bt2{
-}
+
 /*====== blog style 2 ======*/
  .wblog-content.blog-content-5 {
      padding: 15px 20px 15px;
@@ -4231,9 +4224,7 @@
  .witr_post_Author .nameAuthor:hover, .witr_post_Author .comment:hover{
      color: #00247e;
 }
-/*========= blog area css 6 ==========*/
- .witr_blog_area6{
-}
+
  .witr_singleBlog{
      background: #fff;
      transition: .5s;
@@ -4366,9 +4357,7 @@
  .witr_post_Author6 .nameAuthor:hover, .witr_post_Author6 .comment:hover{
      color: #0c5adb;
 }
-/* witr_blog_area8 */
- .witr_blog_area8{
-}
+
  .witr_blog_area8 .witr_singleBlog{
      box-shadow: 0px 0px 15px 0px rgb(0, 0, 0,0.1);
      margin-top: 10px;
@@ -4385,8 +4374,7 @@
  .witr_singleBlog:hover .witr_sb6_thumb::after{
      background: transparent !important;
 }
- .witr_blog_area8 .witr_blog_con6 h2{
-}
+
  .witr_blog_area8 .witr_blog_con6 p{
      margin-top: 0px;
 }
@@ -4607,15 +4595,12 @@
  .witr_counter_number_inn h4{
      font-size: 22px;
 }
-/*====== style 2 ======*/
- .witr_counter_icon{
-}
+
  .witr_counter_icon i {
      font-size: 23px;
      display: inline-block;
 }
- .witr_custom_icon{
-}
+
  .witr_custom_icon i{
      font-size: 60px;
      display: inline-block;
@@ -4636,8 +4621,7 @@
  .witr_single_counter:hover {
      background: #0c5adb;
 }
- .witr_counter_icon4{
-}
+
  .witr_counter_icon4 i {
      font-size: 30px;
      text-align: center;
@@ -4667,8 +4651,7 @@
  .counter_5 .witr_counter_number_inn h3{
      margin-bottom: 0;
 }
- .wirt_new_content{
-}
+
  .wirt_new_content p{
      margin-top: 20px;
 }
@@ -4797,8 +4780,7 @@
      */
      overflow: hidden;
 }
- .prot_thumb {
-}
+
  .prot_thumb img {
      display: block;
      -webkit-transform: scale(1);
@@ -4896,9 +4878,7 @@
  .nospace .single_protfolio {
      margin-bottom: 0px;
 }
-/* load button css */
- .gallery_load_button {
-}
+
  .gallery_load_button a {
      border: 1px solid #ddd;
      color: #444;
@@ -4935,15 +4915,12 @@
      background: #00247e;
      color: #fff;
 }
-/* single portfolio */
- .pimgs {
-}
+
  .pimgs img {
      height: 465px;
      width: 100%;
 }
- .prots-contentg p {
-}
+
 /*style 1 */
  .em_port_content {
      background: #0c5adb80;

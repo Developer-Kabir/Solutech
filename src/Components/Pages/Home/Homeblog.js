@@ -64,16 +64,16 @@ const Homeblog = () => {
 						</div>	
 						<div class="all_blog_color">	
 							<div class="witr_blog_con ">									
-								<h2 className='adce'><Link to="#">Boost Leads Optimize Market New Year</Link></h2>
-								<p>Lorem Ipsum has been the industry's standarddummy text ever since this</p>
+								<h2 className='adce'>Boost Leads Optimize..........</h2>
+								<p>Drive website traffic, build awareness & generate higher quality leads with LinkedIn</p>
 								<div class="em-blog-content-area_adn ">
 									<div class="learn_more_adn">
-										<Link class="learn_btn adnbtn2" to="#">Read More </Link>
+										<Link class="learn_btn adnbtn2" to="/blog">Read More </Link>
 									</div>
 								</div>	
 								<div class="witr_blog_border"></div>
-								<span><i class="icofont-tags"></i> <Link to="#">	Business</Link></span>
-								<span><Link to="#"><i class="icofont-ui-clock"></i></Link> 07 July, 2021</span>
+								<span><i class="icofont-tags"></i>Business</span>
+								<span><i class="icofont-ui-clock"></i> 07 July, 2021</span>
 							</div>
 						</div>
 					</div>
@@ -86,16 +86,16 @@ const Homeblog = () => {
 						</div>	
 						<div class="all_blog_color">	
 							<div class="witr_blog_con bs5">									
-								<h2 className='adce'><Link to="#">We make a Revolution in Word Class Building.</Link></h2>
-								<p>Lorem Ipsum has been the industry's standarddummy text ever since this</p>
+								<h2 className='adce'>We make a Revolution in....</h2>
+								<p>Even while the app is ready for launch, you need to make a launch plan based upon the  ...</p>
 								<div class="em-blog-content-area_adn ">
 									<div class="learn_more_adn">
-										<Link class="learn_btn adnbtn2" to="#">Read More </Link>
+										<Link class="learn_btn adnbtn2" to="/blog">Read More </Link>
 									</div>
 								</div>	
 								<div class="witr_blog_border"></div>
-								<span><i class="icofont-tags"></i> <Link to="#">	Business</Link></span>
-								<span><Link to="#"><i class="icofont-ui-clock"></i></Link> 07 July, 2021</span>
+								<span><i class="icofont-tags"></i> Business</span>
+								<span><i class="icofont-ui-clock"></i> 07 July, 2021</span>
 							</div>
 						</div>
 					</div>
@@ -108,16 +108,16 @@ const Homeblog = () => {
 						</div>	
 						<div class="all_blog_color">	
 							<div class="witr_blog_con bs5">									
-								<h2 className='adce'><Link to="#">Which Architecture sheet tool is to choose?</Link></h2>
-								<p>Lorem Ipsum has been the industry's standarddummy text ever since this</p>
+								<h2 className='adce'>Architecture need to choose.......</h2>
+								<p>Vectorworks is your architectural modeling tool of choice if you are looking....</p>
 								<div class="em-blog-content-area_adn ">
 									<div class="learn_more_adn">
-										<Link class="learn_btn adnbtn2" to="#">Read More </Link>
+										<Link class="learn_btn adnbtn2" to="/blog">Read More </Link>
 									</div>
 								</div>	
 								<div class="witr_blog_border"></div>
-								<span><i class="icofont-tags"></i> <Link to="#">Home Safe</Link></span>
-								<span><Link to="#"><i class="icofont-ui-clock"></i></Link> 07 July, 2021</span>
+								<span><i class="icofont-tags"></i>Home Safe</span>
+								<span><i class="icofont-ui-clock"></i> 07 July, 2021</span>
 							</div>
 						</div>
 					</div>
@@ -130,24 +130,22 @@ const Homeblog = () => {
 						</div>	
 						<div class="all_blog_color">	
 							<div class="witr_blog_con bs5">									
-								<h2 className='adce'><Link to="#">Questions every business owner able to answer</Link></h2>
-								<p>Lorem Ipsum has been the industry's standarddummy text ever since this</p>
+								<h2 className='adce'>Questions every business.........</h2>
+								<p>Are the recruits going to manage or replace existing employees?</p>
 								<div class="em-blog-content-area_adn ">
 									<div class="learn_more_adn">
-										<Link class="learn_btn adnbtn2" to="#">Read More </Link>
+										<Link class="learn_btn adnbtn2" to="/blog">Read More </Link>
 									</div>
 								</div>	
 								<div class="witr_blog_border"></div>
-								<span><i class="icofont-tags"></i> <Link to="#">	Antivirus app</Link></span>
-								<span><Link to="#"><i class="icofont-ui-clock"></i></Link> 07 July, 2021</span>
+								<span><i class="icofont-tags"></i> Antivirus app</span>
+								<span><i class="icofont-ui-clock"></i> 07 July, 2021</span>
 							</div>
 						</div>
 					</div>
 				</div>         
 </Slider>
-
-
-				
+	
 			</div>
 		</div>
 	</div>

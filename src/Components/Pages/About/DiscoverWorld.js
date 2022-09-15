@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const DiscoverWorld = () => {
     return (
@@ -31,10 +30,7 @@ const DiscoverWorld = () => {
 							</div>
 							<div class="witr_content_pslide">
 								<p>SECURITY PROFESSIONAL </p>		
-								<h3><Link to="#">Experts and Staff</Link></h3>
-							</div>
-							<div class="witr_pslide_custom">	
-								<Link to="#"><span class="ti-arrow-right"></span></Link>
+								<h3>Experts and Staff</h3>
 							</div>
 						</div>	
 					</div> 
@@ -50,12 +46,10 @@ const DiscoverWorld = () => {
 								<h4>02.</h4>
 							</div>
 							<div class="witr_content_pslide">
-								<p>SECURITY PROFESSIONAL </p>		
-								<h3><Link to="#">Experts and Staff</Link></h3>
+								<p>BUSINESS PROFESSIONAL</p>		
+								<h3>Sustainable plan</h3>
 							</div>
-							<div class="witr_pslide_custom">	
-								<Link to="#"><span class="ti-arrow-right"></span></Link>
-							</div>
+							
 						</div>	
 					</div> 
 				</div>

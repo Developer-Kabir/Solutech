@@ -13,8 +13,8 @@ const Homebanner = () => {
 						<div class="slider_btn">
 							<div class="witr_btn_style">
 								<div class="witr_btn_sinner">
-									<Link class="witr_btn" to="#">DISCOVER MORE</Link>
-									<Link class="witr_btn active recpwit" to="#">CONTACT MORE</Link>
+									<Link class="witr_btn" to="/service">DISCOVER MORE</Link>
+									<Link class="witr_btn active recpwit" to="/contact">CONTACT US</Link>
 								</div>
 							</div>
 						</div>

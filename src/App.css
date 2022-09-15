@@ -14,4 +14,8 @@
   text-transform: uppercase;
 }
 
+.slick-dots li{
+  display: none !important;
+}
+
 

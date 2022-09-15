@@ -14,8 +14,8 @@ const Header = () => {
 								<div class="top-address text-left">
 									<p>
 										<span><i class="fas fa-home "></i>Ground Floor New World.</span>
-										<Link className='link-style' to="#"><i class="fas fa-phone-alt"></i>+998556778345</Link>
-										<Link to="#"><i class="fas fa-envelope"></i>demo@example.com</Link>
+										<Link className='link-style' to="#"><i class="fas fa-phone-alt"></i>+1 985 5677834</Link>
+										<Link to="#"><i class="fas fa-envelope"></i>mail@solutech.com</Link>
 									</p>
 								</div>
 							</div>
@@ -23,11 +23,11 @@ const Header = () => {
 							<div class="col-xs-12 col-lg-3 col-xl-3 col-md-3 col-sm-12 ">
 								<div class="top-right-menu">
 									<ul class="social-icons text-right text_m_center">
-										<li><Link to="#"><i class="fa fa-facebook-f"></i></Link></li>
-										<li><Link to="#"><i class="fab fa-twitter"></i></Link></li>
-										<li><Link to="#"><i class="fab fa-instagram"></i></Link></li>
-										<li><Link to="#"><i class="fab fa-tumblr"></i></Link></li>
-										<li><Link to="#"><i class="fab fa-pinterest-p"></i></Link></li>
+										<li><Link target="_blank" to="/https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link></li>
+										<li><Link target="_blank" to="/https://twitter.com/"><i class="fab fa-twitter"></i></Link></li>
+										<li><Link target="_blank" to="/https://www.instagram.com/"><i class="fab fa-instagram"></i></Link></li>
+										<li><Link target="_blank" to="/https://www.tumblr.com/"><i class="fab fa-tumblr"></i></Link></li>
+										<li><Link target="_blank" to="/https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link></li>
 									</ul>
 								</div>
 							</div>

@@ -1,7 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+
 
 const AboutService = () => {
+
+
+	const [about, setAbout] = useState([])
+	useEffect(()=>{
+		fetch("AboutService.json")
+		.then(res=> res.json())
+		.then(data => setAbout(data))
+	},[])
+
     return (
         <div>
             <div class="solutech_serivce_area serivce_bg">
@@ -18,113 +27,26 @@ const AboutService = () => {
 		</div>
 		<div class="row service_top">
 	
-			<div class="col-lg-4 col-md-6 col-sm-12">
+			{
+				about.map(a=>
+					<div key={a._id} class="col-lg-4 col-md-6 col-sm-12">
 				<div class="all_feature_color single_feature2 text-center">            
 					<div class="witr_feature2">					
 						<div class="witr_fea2_icon_top">
-							<i class="aprova aprova-website-1"></i>					
+							<i class={a.i}></i>					
 						</div>
-						<h3><Link to="#">Concierge &amp; Reception </Link></h3>
-						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
-						<div class="witr_feature_btn2">
-							<Link class="witr_btn_all_color" to="#">Read More</Link>
-						</div>
+						<h3>{a.name}</h3>
+						<p>{a.text}</p>		
+
 						<div class="witr_feature2_icon">						
-							<i class="aprova aprova-website-1"></i>	
+							<i class={a.i}></i>	
 						</div>					
 					</div> 	   
 				</div>
-			</div>
+			</div>)
+			}
 	
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="all_feature_color single_feature2 text-center">            
-					<div class="witr_feature2">					
-						<div class="witr_fea2_icon_top">
-							<i class="aprova aprova-landing"></i>				
-						</div>
-						<h3><Link to="#">Mobile Security</Link></h3>
-						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
-						<div class="witr_feature_btn2">
-							<Link class="witr_btn_all_color" to="#">Read More</Link>
-						</div>
-						<div class="witr_feature2_icon">						
-							<i class="aprova aprova-landing"></i>
-						</div>					
-					</div> 	   
-				</div>
-			</div>
-	
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="all_feature_color single_feature2 text-center">            
-					<div class="witr_feature2">					
-						<div class="witr_fea2_icon_top">
-							<i class="aprova aprova-analysis"></i>			
-						</div>
-						<h3><Link to="#">Software Develop </Link></h3>
-						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
-						<div class="witr_feature_btn2">
-							<Link class="witr_btn_all_color" to="#">Read More</Link>
-						</div>
-						<div class="witr_feature2_icon">						
-							<i class="aprova aprova-analysis"></i>
-						</div>					
-					</div> 	   
-				</div>
-			</div>
-		
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="all_feature_color single_feature2 text-center">            
-					<div class="witr_feature2">					
-						<div class="witr_fea2_icon_top">
-							<i class="aprova aprova-bitcoin-1"></i>			
-						</div>
-						<h3><Link to="#">Security Management Service</Link></h3>
-						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
-						<div class="witr_feature_btn2">
-							<Link class="witr_btn_all_color" to="#">Read More</Link>
-						</div>
-						<div class="witr_feature2_icon">						
-							<i class="aprova aprova-bitcoin-1"></i>
-						</div>					
-					</div> 	   
-				</div>
-			</div>
 			
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="all_feature_color single_feature2 text-center">            
-					<div class="witr_feature2">					
-						<div class="witr_fea2_icon_top">
-							<i class="aprova aprova-startup"></i>				
-						</div>
-						<h3><Link to="#">Mobile Patrol And Security</Link></h3>
-						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
-						<div class="witr_feature_btn2">
-							<Link class="witr_btn_all_color" to="#">Read More</Link>
-						</div>
-						<div class="witr_feature2_icon">						
-							<i class="aprova aprova-startup"></i>
-						</div>					
-					</div> 	   
-				</div>
-			</div>
-		
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="all_feature_color single_feature2 text-center">            
-					<div class="witr_feature2">					
-						<div class="witr_fea2_icon_top">
-							<i class="aprova aprova-bitcoin-6"></i>					
-						</div>
-						<h3><Link to="#">Offshore Software Develop</Link></h3>
-						<p>Lorem ipsum dolor ame elit, sed do eiusmod tempor incididunt  </p>		
-						<div class="witr_feature_btn2">
-							<Link class="witr_btn_all_color" to="#">Read More</Link>
-						</div>
-						<div class="witr_feature2_icon">						
-							<i class="aprova aprova-bitcoin-6"></i>
-						</div>					
-					</div> 	   
-				</div>
-			</div>
 		</div>
 	</div>
 </div>

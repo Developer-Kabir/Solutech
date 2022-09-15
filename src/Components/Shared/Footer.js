@@ -12,12 +12,12 @@ const Footer = () => {
 					<div class="widget widget_solutech_description_widget">				
 						<div class="solutech-description-area">
 							<Link to="#"><img src="assets/images/logo2.png" alt=""/></Link>
-							<p>We help businesses elevate the alue ere custom softwa topmet, product fr design lored many of the easier. technicians lif making people.</p>
+							<p>Solutech Software provides premier management, technical and professional services in the fields of Information Technology and Security Systems to help clients ...</p>
 							<div class="social-icons">
-								<Link to="#"><i class="fa fa-facebook-f"></i></Link>
-								<Link to="#"><i class="fab fa-google-plus-g"></i></Link>
-								<Link to="#"><i class="fab fa-twitter"></i></Link>
-								<Link to="#"><i class="fas fa-rss"></i></Link>
+								<Link target="_blank" to="/https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link>
+								<Link target="_blank" to="/https://www.google.com/"><i class="fab fa-google-plus-g"></i></Link>
+								<Link target="_blank" to="/https://twitter.com/"><i class="fab fa-twitter"></i></Link>
+								<Link target="_blank" to="/https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link>
 							</div>
 						</div>
 					</div>
@@ -39,7 +39,7 @@ const Footer = () => {
 						<div class="about-footer">
 							<div class="footer-widget address">
 								<div class="footer-logo">
-									<p>Fire suppression and incident of manage get recovery.</p>
+									<p>To confront or deal with our Custome</p>
 								</div>
 								<div class="footer-address">
 									<div class="footer_s_inner"> 
@@ -55,7 +55,7 @@ const Footer = () => {
 											<i class="fa fa-phone"></i>
 										</div> 									
 										<div class="footer-sociala-info">   
-												<p>Phone : +99 568 989 565</p>
+												<p>Phone : +1 (568) 989 565</p>
 										</div>
 									</div>
 									<div class="footer_s_inner"> 
@@ -63,7 +63,7 @@ const Footer = () => {
 											<i class="fa fa-globe"></i>
 										</div> 
 										<div class="footer-sociala-info">  
-											<p>Email : demo@gmail.com</p>									
+											<p>Email : mail@solutech.com</p>									
 										</div>
 									</div>
 								</div>
@@ -94,7 +94,7 @@ const Footer = () => {
 								</div>
 								<div class="witr_sub_table">		
 									<span>Emergency:</span>
-									<span> (+099) 020 768 69</span>
+									<span> +1 (020) 768 69</span>
 								</div>
 							</div>
 						</div>
@@ -108,7 +108,7 @@ const Footer = () => {
 			<div class="row">
 				<div class="col-lg-6 col-md-6  col-sm-12">
 					<div class="copy-right-text">
-						<p>Copyright &copy; solutech all rights reserved.</p>
+						<p>Copyright &copy; Solutech all rights reserved. Design and Developed by Developer Kabir</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6  col-sm-12">				

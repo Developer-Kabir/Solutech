@@ -44,7 +44,7 @@ const OurHappyCustomer = () => {
 				<div class="witr_section_title">
 					<div class="witr_section_title_inner text-center">	
 						<h3>Our Happy Client </h3>		
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. it enim ad minim veniam, </p>		
+						<p>We are grateful for the wonderful testimonials from our happy and beloved clients.</p>		
 					</div>
 				</div>
 			</div>	
@@ -77,14 +77,14 @@ const OurHappyCustomer = () => {
 					</div> 						
 					<div class="em_testi_content">
 						<div class="em_testi_text">
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>	
+							<p>If you are an existing Blink customer, the mini will save video to the cloud just like your other. There is no subscription required.</p>	
 						</div>
 					</div>								
 					<div class="em_test_thumb">
 						<img src="assets/images/testimonial1.png"  alt=""/>			
 					</div>
 					<div class="em_testi_title">
-						<h2>Rahul Alartson <span>Admin Officer</span></h2>											
+						<h2>Rahul Alartson <span>Admin Officer, Amazon.</span></h2>											
 					</div>
 				</div>										
 			</div>
@@ -111,14 +111,14 @@ const OurHappyCustomer = () => {
 					</div> 						
 					<div class="em_testi_content">
 						<div class="em_testi_text">
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>	
+							<p> If you are not an existing customer then you get the trial subscription and have to pay later.</p>	
 						</div>
 					</div>								
 					<div class="em_test_thumb">
 						<img src="assets/images/testimonial2.png"  alt=""/>			
 					</div>
 					<div class="em_testi_title">
-						<h2>Rahul Alartson <span>Admin Officer</span></h2>											
+						<h2>Rahul Alartson <span>Admin Officer, Walmart.</span></h2>											
 					</div>
 				</div>										
 			</div>
@@ -145,14 +145,14 @@ const OurHappyCustomer = () => {
 					</div> 						
 					<div class="em_testi_content">
 						<div class="em_testi_text">
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>	
+							<p>If you only have blink minis in your home without the module, and have the app downloaded then there is no subscription .......</p>	
 						</div>
 					</div>								
 					<div class="em_test_thumb">
 						<img src="assets/images/testimonial3.png"  alt=""/>			
 					</div>
 					<div class="em_testi_title">
-						<h2>Zonson Amplilian <span>Co- Of Officer</span></h2>										
+						<h2>Zonson Amplilian <span>CEO, XoomShaper.</span></h2>										
 					</div>
 				</div>										
 			</div>

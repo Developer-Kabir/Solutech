@@ -18,12 +18,12 @@ const OurProvidedService = () => {
 				
 					<div class="witr_btn_style mr tx_op">
 						<div class="witr_btn_sinner">	
-							<Link to="#" class="witr_bbtn bbtn1">Try Free Service			
+							<Link to="/service" class="witr_bbtn bbtn1">Try Free Service			
 								<span class="btn_w a_active">
 									<i class="icofont-refrigerator"></i>
 								</span>
 							</Link>
-							<Link to="#" class="witr_btn">Refrigerator Premium</Link>
+							<Link to="/pricing" class="witr_btn">Our Pricing</Link>
 						</div>						
 					</div>
 				
