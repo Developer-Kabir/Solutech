@@ -33,7 +33,7 @@ const Ourmember = () => {
 							</div>
 							<div class="em-team-content-subtitle-inner">
 								<div class="em-content-subtitle">
-									<span>DIRECTOR</span>
+									<span>FOUNDER & CHAIRMAN</span>
 								</div>
 							</div>
 							<div class="em-team-content-socials-inner">
@@ -65,7 +65,7 @@ const Ourmember = () => {
 							</div>
 							<div class="em-team-content-subtitle-inner">
 								<div class="em-content-subtitle">
-									<span>MANAGER</span>
+									<span>MANAGING DIRECTOR</span>
 								</div>
 							</div>
 							<div class="em-team-content-socials-inner">
@@ -97,7 +97,7 @@ const Ourmember = () => {
 							</div>
 							<div class="em-team-content-subtitle-inner">
 								<div class="em-content-subtitle">
-									<span>MARKETING</span>
+									<span>HEAD oF MARKETING</span>
 								</div>
 							</div>
 							<div class="em-team-content-socials-inner">

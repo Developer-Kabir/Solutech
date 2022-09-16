@@ -66,49 +66,49 @@ const FAQ = () => {
 							<div class="card card-2">
 								<div class="card-header witr_ac_card">
 									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_242536c" aria-expanded="true">
-									 01. Do You Need A Business Service?</Link>
+									 01. How can I deal with you ?</Link>
 								</div>
 								<div id="collapse_242536c" class="collapse" data-parent="#accordion">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
+									<p>Go to our contact page first. You can call us or mail us by given contact detail. Thank you</p>
 								</div>
 							</div>
 							<div class="card card-2">
 								<div class="card-header witr_ac_card">
 									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_9315e3d1" aria-expanded="true">
-									02. Business Service A Scam?</Link>
+									02. Business Service A Scam ?</Link>
 								</div>
 								<div id="collapse_9315e3d1" class="collapse   " data-parent="#accordion">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
+                                    <p>You can visit our office and we will do agreement with you about payment after work</p>
 								</div>
 							</div> 
 						
 							<div class="card card-2  ">
 								<div class="card-header witr_ac_card">
 									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_9965145" aria-expanded="true">
-									03. Most Out Of Your Business Service?</Link>
+									03. Is your price is fixed ?</Link>
 								</div>
 								<div id="collapse_9965145" class="collapse   " data-parent="#accordion">
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
+                                     <p>Basically its fixed but it varies your service and our working hour</p>
 								</div>
 							</div>
 					
 							<div class="card card-2  ">
 								<div class="card-header witr_ac_card">
 									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_4b685b3" aria-expanded="true">
-									 04. The Sound Of Business Service?</Link>
+									 04. How much Support do you provide ?</Link>
 								</div>
 								<div id="collapse_4b685b3" class="collapse   " data-parent="#accordion">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
+									<p>We provide you 27/7 support . First three months will be free.</p>
 								</div>
 							</div>
 					
 							<div class="card card-2  ">
 								<div class="card-header witr_ac_card">
 									<Link to="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_4b685b4" aria-expanded="true">
-									05. The Sound Of Business Service?</Link>
+									05. is there any installment system of payment ?</Link>
 								</div>
 								<div id="collapse_4b685b4" class="collapse   " data-parent="#accordion">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
+									<p>Yes. We have.</p>
 								</div>
 							</div> 
 						</div>

@@ -6,7 +6,7 @@ const Testiomonal = () => {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         speed: 800,
@@ -41,7 +41,7 @@ const Testiomonal = () => {
 				<div class="witr_section_title white">
 					<div class="witr_section_title_inner text-center">
 						<h2>Our Testimonial</h2>		
-						<h3>Compilate Recent Product For</h3>		
+						<h3>Complate Recent Service For</h3>		
 						<h1>Our Customer</h1>	
 					</div>
 				</div>
@@ -55,14 +55,14 @@ const Testiomonal = () => {
 						<div class="testiCreCon">
 							<i class="fa fa-quote-right"></i>
 				
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>								
+							<p>A fantastic organisation! Great cutomer support from beginning to end of the process. I would recommend them unreservedly.</p>								
 						</div>
 						<div class="em_test_thumb">
 							<img src="assets/images/testimonial2.png" alt="" />
 						</div>
 						<div class="testAuthor">
 							<h6>Zonson Amplilian</h6>
-							<span> Co- Of Officer </span>
+							<span>Co-fontder of Arazon </span>
 						</div>
 					</div>
 				</div>
@@ -74,37 +74,20 @@ const Testiomonal = () => {
 						<div class="testiCreCon">
 							<i class="fa fa-quote-right"></i>
 		
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>								
+							<p>Great service, efficient communication and a really easy way to get a mortgage with lots of help and support to get the right deal.</p>								
 						</div>
 						<div class="em_test_thumb">
 							<img src="assets/images/testimonial1.png" alt="" />
 						</div>
 						<div class="testAuthor">
 							<h6>Rahul Alartson</h6>
-							<span> Admin Officer </span> 
+							<span>Admin Officer, SoftCare </span> 
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="item guttergs">
-				<div class="single_creativeItem post_t6">
-					<div class="box-size">
-						<div class="testiCreCon">
-							<i class="fa fa-quote-right"></i>
-				
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>								
-						</div>
-						<div class="em_test_thumb">
-							<img src="assets/images/testimonial3.png" alt="" />
-						</div>
-						<div class="testAuthor">
-							<h6>Robert Amplilian</h6>
-							<span> Chief People Officer </span> 
-						</div>
-					</div>
-				</div>
-			</div>
+		
 
 			<div class="item guttergs">
 				<div class="single_creativeItem post_t6">
@@ -112,14 +95,14 @@ const Testiomonal = () => {
 						<div class="testiCreCon">
 							<i class="fa fa-quote-right"></i>
 					
-							<p>Following best practices and pro edures provided by the leading orga izations in the industry, our clea ng and disinfectingIt</p>								
+							<p>Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best hotel for my wife and I.</p>								
 						</div>
 						<div class="em_test_thumb">
-							<img src="assets/images/testimonial1.png" alt="" />
+							<img src="assets/images/testimonial3.png" alt="" />
 						</div>
 						<div class="testAuthor">
 							<h6>Marvin McKinney</h6>
-							<span> District Officer </span> 
+							<span>District Officer, NexixSoft </span> 
 						</div>
 					</div>
 				</div>

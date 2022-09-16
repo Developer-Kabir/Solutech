@@ -17,15 +17,15 @@ const History = () => {
 						<div class="slider_btn">
 							<div class="witr_btn_style">
 								<div class="witr_btn_sinner">
-									<Link class="witr_btn" to="#">MORE SERVICE</Link>
-									<Link class="witr_btn active recpwit" to="#">CONTACT NOW</Link>
+									<Link class="witr_btn" to="/service">MORE SERVICE</Link>
+									<Link class="witr_btn active recpwit" to="/contact">CONTACT NOW</Link>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="slider_vd_icon">
 						<div class="slider_vd_icon_inner">
-							<Link class="tx_svd_icon recpwit video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" to="https://youtu.be/BS4TUd7FJSg"><i class="fas fa-play"></i></Link>
+							<Link class="tx_svd_icon recpwit video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" to="/https://youtu.be/alHaLPnTgMs"><i class="fas fa-play"></i></Link>
 						</div>
 					</div>
 				</div>
