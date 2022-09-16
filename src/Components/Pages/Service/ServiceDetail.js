@@ -49,7 +49,7 @@ const ServiceDetail = () => {
 										<i class="icofont-ui-home"></i>
 									</div>
 									<h3>Home Servicing </h3>
-									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
+									<p>Designed for easy approvals on both low and high-risk accounts, we offers customized credit and servicing programs to fit the needs of your business today ...</p>		
 								</div>
 							</div>
 						</div>
@@ -60,11 +60,8 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-ui-home"></i>
 									</div>
-									<h3><Link to="#">Home Servicing</Link></h3>
-									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
-								</div>
-								<div class="witr_service_btn_3d">
-									<Link to="#">See More</Link>
+									<h3>Home Servicing</h3>
+									<p>Designed for easy approvals on both low and high-risk accounts, we offers customized credit and servicing programs to fit the needs of your business today ...</p>		
 								</div>
 							</div>
 						</div>
@@ -82,8 +79,8 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-ui-settings"></i>
 									</div>
-									<h3>PRODUCT SERVICING </h3>
-									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
+									<h3>PRODUCT SERVICING</h3>
+									<p>A product is a tangible item that is put on the market for acquisition, attention, or consumption, while a service is an intangible item, ...</p>		
 								</div>
 							</div>
 						</div>
@@ -94,12 +91,10 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-ui-settings"></i>
 									</div>
-									<h3><Link to="#">PRODUCT SERVICING</Link></h3>
-									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
+									<h3>PRODUCT SERVICING</h3>
+									<p>A product is a tangible item that is put on the market for acquisition, attention, or consumption, while a service is an intangible item, ...</p>		
 								</div>
-								<div class="witr_service_btn_3d">
-									<Link to="#">See More</Link>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -116,8 +111,8 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-search-property"></i>
 									</div>
-									<h3>COULD &amp; SEARCH </h3>
-									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
+									<h3>COULD &amp; reSEARCH </h3>
+									<p>This study provides a deeper understanding of these linguistic features to impact the reader. Pedagogically, the study can be useful for teaching academic ...</p>		
 								</div>
 							</div>
 						</div>
@@ -128,12 +123,10 @@ const ServiceDetail = () => {
 									<div class="witr_service_icon_3d all_icon_color">
 										<i class="icofont-search-property"></i>
 									</div>
-									<h3><Link to="#">COULD &amp; SEARCH</Link></h3>
-									<p>Lorem ipsum dolor sit amet, caadipisi cing elit, sed do eiusmod temporgde incididunt utn labore. </p>		
+									<h3>COULD &amp; SEARCH</h3>
+									<p>This study provides a deeper understanding of these linguistic features to impact the reader. Pedagogically, the study can be useful for teaching academic ...</p>		
 								</div>
-								<div class="witr_service_btn_3d">
-									<Link to="#">See More</Link>
-								</div>
+							
 							</div>
 						</div>
 					</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const SoftwareSolution = () => {
     return (
@@ -43,7 +42,7 @@ const SoftwareSolution = () => {
                                         </div>
                                         <div class="progress witr_progress-style2">
                                             <div class="progress-bar wow fadeInLeft " data-wow-duration="1.5s" data-wow-delay="0.2s" style={{ width: "75%" }}>
-                                                <span class="witr_percent">75%</span>
+                                                <span class="witr_percent">95%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -53,7 +52,7 @@ const SoftwareSolution = () => {
                                         </div>
                                         <div class="progress witr_progress-style2">
                                             <div class="progress-bar wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s" style={{ width: "80%" }}>
-                                                <span class="witr_percent">80%</span>
+                                                <span class="witr_percent">100%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -61,13 +60,6 @@ const SoftwareSolution = () => {
                                 <div class="col-lg-4 col-md-5 col-sm-12">
                                     <div class="choose_sub_thumb">
                                         <img src="assets/images/choose-2.jpg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="witr_button_area button2">
-                                <div class="witr_btn_style mr">
-                                    <div class="witr_btn_sinner">
-                                        <Link to="#" class="witr_btn">Discover More</Link>
                                     </div>
                                 </div>
                             </div>

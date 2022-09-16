@@ -26,7 +26,7 @@ const CCTV = () => {
 							<div class="witr_back_process">
 								<div class="witr_content_service">
 									<h3><Link to="#">Day &amp; night Wireless cams</Link></h3>
-									<p>We help businesses elevate their through custom service software development product design. </p>
+									<p>Here are ways a strategically placed CCTV camera system can boost the safety of workers while at work.</p>
 								</div>
 							</div>
 							<div class="witr_process_box">
@@ -50,7 +50,8 @@ const CCTV = () => {
 							<div class="witr_back_process">
 								<div class="witr_content_service">
 									<h3><Link to="#"> venenatis felis Wireless cams</Link></h3>
-									<p>We help businesses elevate their through custom service software development product design. </p>
+									<p>Strong, Friendly, Reliable for all your Technology needs! Solutech provide the best Security Systems Solutions.
+</p>
 								</div>
 							</div>
 							<div class="witr_process_box">
@@ -73,8 +74,8 @@ const CCTV = () => {
 							<img src="assets/images/work-3.jpg" alt=""/>
 							<div class="witr_back_process">
 								<div class="witr_content_service">
-									<h3><Link to="#">Cras tristique purus non lacus</Link></h3>
-									<p>We help businesses elevate their through custom service software development product design. </p>
+									<h3><Link to="#">car garage safety</Link></h3>
+									<p>To ensure that all cars are in the safe purview of the CCTV, set up the camera on an elevated space. Higher the elevation, lower the area as a ...</p>
 								</div>
 							</div>
 							<div class="witr_process_box">

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const BusinessDevelopment = () => {
     return (
@@ -26,11 +25,9 @@ const BusinessDevelopment = () => {
 								<img src="assets/images/blog8.jpg" alt=""/>
 							</div>
 							<div class="text_box all_icon_color">
-								<h3>Our Security  Services Plan </h3>
-								<p>Up is opinion message manners correct hearing husband my. Disposing commanded dashwoods cordially depending at at. Its strangers who you certainty earnestly  of on resources suffering she. Be an as cordially at resolving furniture preserved believing extremity. Easy mr pain felt in. Too northward affection additions nay. He no an nature ye talent houses wisdom vanity denied.</p>
-								<div class="service-btn btn2">
-									<Link to="#">Read More<span class="ti-arrow-right"></span></Link>
-								</div>
+								<h3>Our Business Development Plan </h3>
+								<p>Business development activities extend across different departments, including sales, marketing, project management, product management, and vendor management. Networking, negotiations, partnerships, and cost-savings efforts are also involved. All of these different departments and activities are driven by and aligned with the business development goals. </p>
+								
 							</div> 						
 						</div> 						
 						<div class="col-lg-12">
@@ -66,14 +63,12 @@ const BusinessDevelopment = () => {
 			<div class="col-lg-4 col-md-6 col-sm-12 acadmics departmen2">
 				<div class="departmentList all_list_color text">
 					<h3>Business plan Service</h3>
-					<ul>
-						<li><Link to="#">Software Development
-						</Link></li><li><Link to="#">Analytic Solutions</Link></li>
-						<li><Link to="#">IT Management</Link></li>
-						<li><Link to="#">Infrastructure Plan</Link></li>
-						<li><Link to="#">Marketing Strategy </Link></li>
-						<li><Link to="#">Finance and Economy</Link></li>
-					</ul>											
+						<h3>Analytic Solutions</h3>
+						<h3>IT Management</h3>
+						<h3>Infrastructure Plan</h3>
+						<h3>Marketing Strategy</h3>
+						<h3>Finance and Economy</h3>
+																
 				</div>								
 			</div>
 		</div>
