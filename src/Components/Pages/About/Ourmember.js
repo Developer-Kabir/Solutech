@@ -38,11 +38,11 @@ const Ourmember = () => {
 										</div>
 										<div class="em-team-content-socials-inner">
 											<div class="em-team-content-socials all_team_s_color">
-												<Link target="_blank" to="https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link>
-												<Link target="_blank" to="https://twitter.com/"><i class="fab fa-twitter"></i></Link>
-												<Link target="_blank" to="https://www.instagram.com/"><i class="fab fa-instagram"></i></Link>
-												<Link target="_blank" to="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></Link>
-												<Link target="_blank" to="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link>
+												<a target="_blank" rel="noreferrer" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
 											</div>
 										</div>
 									</div>
@@ -71,11 +71,11 @@ const Ourmember = () => {
 										</div>
 										<div class="em-team-content-socials-inner">
 											<div class="em-team-content-socials all_team_s_color">
-												<Link target="_blank" to="https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link>
-												<Link target="_blank" to="https://twitter.com/"><i class="fab fa-twitter"></i></Link>
-												<Link target="_blank" to="https://www.instagram.com/"><i class="fab fa-instagram"></i></Link>
-												<Link target="_blank" to="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></Link>
-												<Link target="_blank" to="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link>
+												<a target="_blank" rel="noreferrer" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
 											</div>
 										</div>
 									</div>
@@ -104,11 +104,11 @@ const Ourmember = () => {
 										</div>
 										<div class="em-team-content-socials-inner">
 											<div class="em-team-content-socials all_team_s_color">
-												<Link target="_blank" to="https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link>
-												<Link target="_blank" to="https://twitter.com/"><i class="fab fa-twitter"></i></Link>
-												<Link target="_blank" to="https://www.instagram.com/"><i class="fab fa-instagram"></i></Link>
-												<Link target="_blank" to="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></Link>
-												<Link target="_blank" to="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link>
+												<a target="_blank" rel="noreferrer" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+												<a target="_blank" rel="noreferrer" href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
 											</div>
 										</div>
 									</div>

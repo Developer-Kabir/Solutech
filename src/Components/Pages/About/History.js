@@ -25,7 +25,7 @@ const History = () => {
 					</div>
 					<div class="slider_vd_icon">
 						<div class="slider_vd_icon_inner">
-							<Link class="tx_svd_icon recpwit video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" to="https://youtu.be/alHaLPnTgMs"><i class="fas fa-play"></i></Link>
+							<a class="tx_svd_icon recpwit video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/alHaLPnTgMs"><i class="fas fa-play"></i></a>
 						</div>
 					</div>
 				</div>

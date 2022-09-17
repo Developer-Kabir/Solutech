@@ -23,11 +23,11 @@ const Header = () => {
 							<div class="col-xs-12 col-lg-3 col-xl-3 col-md-3 col-sm-12 ">
 								<div class="top-right-menu">
 									<ul class="social-icons text-right text_m_center">
-										<li><Link target="_blank" to="https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link></li>
-										<li><Link target="_blank" to="https://twitter.com/"><i class="fab fa-twitter"></i></Link></li>
-										<li><Link target="_blank" to="https://www.instagram.com/"><i class="fab fa-instagram"></i></Link></li>
-										<li><Link target="_blank" to="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></Link></li>
-										<li><Link target="_blank" to="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link></li>
+										<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a></li>
+										<li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+										<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+										<li><a target="_blank" rel="noreferrer" href="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></a></li>
+										<li><a target="_blank" rel="noreferrer" href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a></li>
 									</ul>
 								</div>
 							</div>
