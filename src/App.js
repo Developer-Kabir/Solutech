@@ -13,6 +13,7 @@ import Blog from './Components/Pages/Blog/Blog';
 import FAQ from './Components/Pages/About/FAQ';
 import Terms from './Components/Pages/About/Terms';
 import History from './Components/Pages/About/History';
+import NotFound from './Components/Shared/NotFound';
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <div className='app' >
       <Header></Header>
       <Routes>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>

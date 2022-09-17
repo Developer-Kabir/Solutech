@@ -30,7 +30,7 @@ const Blogs = () => {
 							<div class="wblog-content blog-content-2 all_blog_color">
 								<span><Link to="#"><i class="fas fa-user"></i> Solutech </Link></span>
 								<span><i class="icofont-tags"></i><Link to="#">Antivirus app</Link></span>
-								<h5><Link to="single-blog.html">Questions every business owner able to answer</Link></h5>
+								<h5><Link to="#">Questions every business owner able to answer</Link></h5>
 								<p>Lorem Ipsum has been the industry's standarddummy text ever since this 2021</p>
 								<Link class="btn2" to="#">Read More</Link>
 							</div>
@@ -49,7 +49,7 @@ const Blogs = () => {
 							<div class="wblog-content blog-content-2 all_blog_color">
 								<span><Link to="#"><i class="fas fa-user"></i> Solutech </Link></span>
 								<span><i class="icofont-tags"></i><Link to="#">Business</Link></span>
-								<h5><Link to="single-blog.html">Boost Leads Optimize Market of New Year</Link></h5>
+								<h5><Link to="#">Boost Leads Optimize Market of New Year</Link></h5>
 								<p>Lorem Ipsum has been the industry's standarddummy text ever since this 2021</p>
 								<Link class="btn2" to="#">Read More</Link>
 							</div>
@@ -68,7 +68,7 @@ const Blogs = () => {
 							<div class="wblog-content blog-content-2 all_blog_color">
 								<span><Link to="#"><i class="fas fa-user"></i> Solutech </Link></span>
 								<span><i class="icofont-tags"></i><Link to="#">Antivirus app</Link></span>
-								<h5><Link to="single-blog.html">We make a Revolution in Word Class Building.</Link></h5>
+								<h5><Link to="#">We make a Revolution in Word Class Building.</Link></h5>
 								<p>Lorem Ipsum has been the industry's standarddummy text ever since this 2021</p>
 								<Link class="btn2" to="#">Read More</Link>
 							</div>
