@@ -14,10 +14,10 @@ const Footer = () => {
 							<Link to="#"><img src="assets/images/logo2.png" alt=""/></Link>
 							<p>Solutech Software provides premier management, technical and professional services in the fields of Information Technology and Security Systems to help clients ...</p>
 							<div class="social-icons">
-								<Link target="_blank" to="/https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link>
-								<Link target="_blank" to="/https://www.google.com/"><i class="fab fa-google-plus-g"></i></Link>
-								<Link target="_blank" to="/https://twitter.com/"><i class="fab fa-twitter"></i></Link>
-								<Link target="_blank" to="/https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link>
+								<Link target="_blank" to="https://www.facebook.com"><i class="fa fa-facebook-f"></i></Link>
+								<Link target="_blank" to="https://www.google.com/"><i class="fab fa-google-plus-g"></i></Link>
+								<Link target="_blank" to="https://twitter.com/"><i class="fab fa-twitter"></i></Link>
+								<Link target="_blank" to="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></Link>
 							</div>
 						</div>
 					</div>
