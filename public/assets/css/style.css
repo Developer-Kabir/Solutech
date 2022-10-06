@@ -11178,6 +11178,7 @@
 }
  a.dtbtn:hover, .witr_btn:hover, .solutech_button a:hover{
      background:#0c5adb;
+     color: white;
 }
  a.dtbtn::before, .witr_btn::before, .witr_bbtn::before, .solutech_button a::before, .witr_sbtn_s8 a::before {
      transition: 0.5s;

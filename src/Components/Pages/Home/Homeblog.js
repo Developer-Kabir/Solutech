@@ -57,7 +57,7 @@ const Homeblog = () => {
 
 	
             <Slider {...settings}>
-            <div class="witr_all_mb_30">
+            <div class="witr_testi_itemt testi-width ">
 					<div class="busi_singleBlog">
 						<div class="witr_sb_thumb">
 							<Link to="#"><img src="assets/images/blog-thumb-01.jpg" alt="" /></Link>
@@ -79,7 +79,7 @@ const Homeblog = () => {
 					</div>
 				</div>
 			
-				<div class="witr_all_mb_30">
+				<div class="witr_testi_itemt testi-width">
 					<div class="busi_singleBlog">
 						<div class="witr_sb_thumb">
 							<Link to="#"><img src="assets/images/blog-thumb-02.jpg" alt=""/ ></Link>
@@ -87,7 +87,7 @@ const Homeblog = () => {
 						<div class="all_blog_color">	
 							<div class="witr_blog_con bs5">									
 								<h2 className='adce'>We make a Revolution in....</h2>
-								<p>Even while the app is ready for launch, you need to make a launch plan based upon the  ...</p>
+								<p>Even while the app is ready for launch, you need to make a launch upon the  ...</p>
 								<div class="em-blog-content-area_adn ">
 									<div class="learn_more_adn">
 										<Link class="learn_btn adnbtn2" to="/blog">Read More </Link>
@@ -101,14 +101,14 @@ const Homeblog = () => {
 					</div>
 				</div>
 			
-				<div class="witr_all_mb_30">
+				<div class="witr_testi_itemt testi-width">
 					<div class="busi_singleBlog">
 						<div class="witr_sb_thumb">
 							<Link to="#"><img src="assets/images/blog-thumb-03.jpg" alt="" /></Link>
 						</div>	
 						<div class="all_blog_color">	
 							<div class="witr_blog_con bs5">									
-								<h2 className='adce'>Architecture need to choose.......</h2>
+								<h2 className='adce'>Architecture need to choose...</h2>
 								<p>Vectorworks is your architectural modeling tool of choice if you are looking....</p>
 								<div class="em-blog-content-area_adn ">
 									<div class="learn_more_adn">
@@ -123,7 +123,7 @@ const Homeblog = () => {
 					</div>
 				</div>
 				
-				<div class="witr_all_mb_30">
+				<div class="witr_testi_itemt testi-width">
 					<div class="busi_singleBlog">
 						<div class="witr_sb_thumb">
 							<Link to="#"><img src="assets/images/blog-thumb-04.jpg" alt=""/ ></Link>
